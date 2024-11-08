@@ -1,0 +1,58 @@
+%   Filename    : chapter_1.tex 
+\chapter{Introduction}
+\label{sec:researchdesc}    %labels help you reference sections of your document
+
+\section{Overview}
+\label{sec:overview}
+
+Speech-to-Text (STT) technology has rapidly evolved in recent years, especially with the emergence of deep learning algorithms, such as recurrent neural networks (RNNs) and convolutional neural networks (CNNs) that greatly enhanced the accuracy of STT systems \cite{Televic:2024}. Open-source toolkits such as Kaldi have further accelerated research and development in this field by providing a flexible framework for building and training custom automatic speech recognition (ASR) models. These ASR systems are used to convert speech into text [17]. However, despite these advancements, only few Philippine languages have been explored and are integrated with this technology. For this special problem, the focus will be on one of the understudied Central Philippine languages, Akeanon \cite{Wellstood:2022}. 
+
+Akeanon is an Austronesian language belonging to the Visayan subgroup \cite{Biray:2023}. With more than 130,000 households \cite{PSA:2023} speaking the language, Akeanon is primarily spoken in the province of Aklan, located in northwestern Panay. \citeA{Biray:2023} explains that the language has several dialects, each typically named after the town where it is spoken. These include Akeanon Buruangganon, Akeanon Nabasnon, Akeanon Bukidnon, and the standard Akeanon, which is spoken in Kalibo, the provincial capital of Aklan. For this special problem, the researchers will focus on developing the speech and text corpus specifically for standard Akeanon.
+
+Up to this date, no studies have been conducted that is directly related to Akeanon and speech recognition altogether. However, there exist similar studies in the context of speech recognition on other Visayan languages such as Bisaya in the study of \shortciteA{Cerna:2023} and Hiligaynon, studied by \shortciteA{Billones:2014}. This special problem aims to bridge the gap in speech recognition for Akeanon starting with establishing a foundational speech corpus for the language, which can lay the groundwork for future research and applications. The corpus development will draw on methodologies from similar studies conducted for Bisaya and Hiligaynon, adapting them to meet the specific needs of Akeanon. In doing so, the project aims to bring Akeanon closer to digital integration, promoting inclusivity in speech recognition technology for Philippine languages. By bridging this gap, this special problem aspires to create a resource that can benefit future ASR developments, language preservation efforts, and the broader field of computational linguistics.
+
+Developing an STT system for Akeanon not only addresses the gap of lack of representation of the regional language but also contributes to the preservation and digital inclusion of the language. This special problem also aims to create an ASR model that can accurately recognize Akeanon speech patterns and nuances, given the language’s unique phonetic and linguistic characteristics. With the resources collated for this study, the researchers will use Kaldi toolkit to develop an ASR system that will provide initial speech recognition results for the Akeanon language. Lastly, the study seeks to explore the challenges involved in building speech models for low-resource languages, contributing insights to the broader field of speech technology development.
+
+
+\section{Problem Statement}
+\label{sec:problemstatement}
+
+Akeanon remains underrepresented in modern speech technologies. According to \citeA{Khan:2023}, in machine learning, natural language can be categorized into two categories: low-resource languages (LRLs) and high-resource languages (HRLs). Among these resources are (a) collections of text in different formats, such as research papers, journal articles, social media content, etc.; (b) lexical, syntactic, and semantic resources, such as dictionaries, bag of words, semantic databases, etc.; and (c) task-specific resources, such as annotated text, machine translation corpora, part-of-speech tags, etc.. HRLs e.g. English, French, Japanese, etc., are languages that are highly accessible and have many data resources that can be used for natural language processing (NLP). LRLs, on the other hand, are understudied and have few data resources that can be utilized for NLP.  Most regional languages in the Philippines are considered to be LRL, including the Akeanon language. \citeA{Alejan:2021} raised concerns on the Philippines' inclusion on a global list of the top ten "language hotspots", which means that many of its languages are disappearing faster than they are being completely documented. Their study noted the global rate of language extinction, which is one in every two weeks. They also projected that around half of the 6,000 languages will become extinct by the end of the century, to which most of them are indigenous languages. According to \shortciteA{Magueresse:2020} [29], a language supported by NLP techniques can help preserve it from extinction. It will also make the language more available and accessible in digital format, which offers significant commercial value, societal purpose, and applications in a variety of domains \cite{Tsvetkov:2017}.
+
+This special problem aims to address the lack of resources, availability, and accessibility of the Akeanon language in, but not limited to, modern speech technologies by building and establishing a speech and text and corpus for the language. Additionally, by developing an ASR model specific for Akeanon, it would lay the foundation for future research in speech-to-text, and other modern speech technologies for the language. Lastly, this special problem seeks to inspire innovation and drive similar efforts to preserve and develop accessible language technologies for other regional languages in the Philippines.
+
+\section{Research Objectives}
+\label{sec:researchobjectives}
+
+\subsection{General Objective}
+\label{sec:generalobjective}
+
+The general objective of this study is to construct and establish a text and speech corpus the Akeanon language, and design and implement an automatic speech recognition (ASR) system for the language using the Kaldi toolkit.
+
+
+\subsection{Specific Objectives}
+\label{sec:specificobjectives}
+
+Specifically, the study targets to:
+\begin{enumerate}
+    \item Construct Akeanon text and speech corpus.
+    \item Train and fine-tune ASR models on collected data on Akeanon language.
+    \item Evaluate model performance and optimize the parameters in terms of the Word Error Rate (WER).
+ \end{enumerate}
+ 
+\section{Scope and Limitations of the Research}
+\label{sec:scopelimitations}
+
+The system is specific to the standard Akeanon language that is spoken in Kalibo, Aklan, the provincial capital. It is limited to the standard Akeanon even though the language has several dialects, due to resource constraints and the need for specificity. The study is centered around gathering audio samples from native speakers of standard Akeanon to guarantee precision and uniformity in the training of the model. This does not include other variations or dialects that are based on standard Akeanon language such as Buruanganon, Akeanon Nabasnon, and Akeanon Bukidnon, which can have different and unique phonetic and lexical traits. The automatic speech recognition model will be constructed using the Kaldi toolkit, selected for its flexibility in low-resource language environments. Nevertheless, the model's effectiveness might be influenced by the scarce availability of Akeanon data, potentially affecting its wide-ranging applicability.
+
+\section{Significance of the Research}
+\label{sec:significance}
+
+Akeanon language, like many indigenous languages in the Philippines, lacks representation in digital technologies. Creating an automatic speech recognition (ASR) model for Akeanon language will help contribute to the preservation of the language in digital format, establishing a resource that will support documentation and education initiatives in the future. The dataset and model produced in the study of Akeanon language can act as a basis for further and additional linguistic research.
+
+Akeanon and its incorporation in speech recognition technology fosters digital inclusivity. This enables Akeanon speakers to engage with technology in their mother tongue highlighting the areas in education, communication, and public service where language barriers are almost present when accessing the said areas. Mobile applications, virtual assistants and other tools can embed speech to text of Akeanon language to help enhance accessibility and boost engagement with technology.
+
+The challenge faced and lessons learned from this study will help contribute to addressing the lack of representation of low-resource language in AI technology, aligning with the need for inclusivity in language processing \cite{Poupard:2024}. This initiative will help in promoting linguistic diversity as well as safeguard cultural heritage through Akeanon speech recognition in technological advancement. \citeA{Poupard:2024} highlights that even minimal focus on languages with fewer resources can significantly influence their viability in an increasingly digital world where larger languages prevail.
+
+
+

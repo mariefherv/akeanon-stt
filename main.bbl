@@ -1,0 +1,36 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Polat%
+\ \BBA {} Oyucu%
+}{%
+Polat%
+\ \BBA {} Oyucu%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Polatetal}
+\APACinsertmetastar {%
+Polatetal}%
+\begin{APACrefauthors}%
+Polat, H.%
+\BCBT {}\ \BBA {} Oyucu, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Building a Speech and Text Corpus of Turkish: Large
+  Corpus Collection with Initial Speech Recognition Results} {Building a speech
+  and text corpus of turkish: Large corpus collection with initial speech
+  recognition results}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Symmetry}{12}{2}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2073-8994/12/2/290}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/sym12020290} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}
