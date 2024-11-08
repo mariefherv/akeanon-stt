@@ -1,2 +1,2 @@
 # Hambaeon: Developing An Akeanon Speech and Text Corpus with Extensive Data Collection and Preliminary Speech Recognition Results
-## Keywords: Language resources, Natural language processing (NLP), Speech recognition, Philippine languages, Aklan, Akeanon, Language corpus, Low-resource languages (LRL)
+Keywords: Language resources, Natural language processing (NLP), Speech recognition, Philippine languages, Aklan, Akeanon, Language corpus, Low-resource languages (LRL)
