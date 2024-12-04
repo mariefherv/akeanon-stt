@@ -1,7 +1,10 @@
 %   Filename    : chapter_2.tex 
+
+
 \chapter{Review of Related Literature}
 \label{sec:relatedlit}
 
+\begin{comment}
 This chapter discusses the features, capabilities, and limitations of existing research, algorithms, or software  that are related/similar to the Special Problem.
 
  The reviewed works and software must be arranged either in chronological order, or by area (from general to specific).  
@@ -22,8 +25,6 @@ A literature review must do these things:
 A literature review is a piece of discursive prose, not a list describing or summarizing one piece of literature after another. It’s usually a bad sign to see every paragraph beginning with the name of a researcher. Instead, organize the literature review into sections that present themes or identify trends, including relevant theory. You are not trying to list all the materials published, but to synthesize and evaluate them according to the guiding concept of your thesis or research question. You should also state the limits or gaps of their researches wherein you will try to fill these gaps in accordance to your research problem and objectives.
 
 
-
-\begin{comment}
 
 %
 % IPR acknowledgement: the contents withis this comment are from Ethel Ong's slides on RRL.
@@ -55,7 +56,14 @@ Guide on Writing your RRL chapter
 
 \end{comment}
 
-\section{Theme 1 Title}
+\section{Automatic Speech Recognition}
+\label{sec:ASR}
+
+Automatic Speech Recognition (ASR) is a technology that processes human speech into readable text by the use of machine learning or artificial intelligence (AI). The ASR system has grown popular over the past decade as it quickly approaches human accuracy levels, there is a great demand for applications taking advantage of ASR technology in their products to make audio and video data more accessible \shortcite{Foster:2023}.
+
+Automatic Speech Recognition independently decodes and transcribes spoken language using a machine-base process. An ASR system takes in acoustic signals from a speaker via a microphone, analyzes these signals using various patterns, models, or algorithms, and generates an output, most commonly in text form \shortcite{Levis:2012}. The importance of differentiating speech recognition from speech understanding (speech identification) is that, speech understanding focuses on interpreting the meaning of an utterance rather than merely transcribing it. Furthermore, speech recognition is distinct from voice recognition: speech recognition pertains to a machine's capability to identify the words spoken, while voice recognition relates to a machine's ability to discern the manner of speaking \shortcite{Levis:2012}.
+
+\begin{comment}
 This chapter  contains a review of research papers that:
 %
 % IPR acknowledgement: the following list of items are from Ethel Ong's slides RRL.
@@ -77,14 +85,102 @@ It also contains a review of software systems that:
    \item Addresses a need or domain similar to yours
    \item Is your predecessor
 \end{itemize}
+\end{comment}
 
-\section{Theme 2 Title}
+\section{Lexicon Model}
+\label{sec:LexiconModel}
 
+The lexicon model is essential in automatic speech recognition, serving as the bridge between the acoustic representation and the sequence of words produced by the speech recognizer. The lexicon's function can be viewed in two aspects: it first identifies the words or lexical items recognized by the system, and second, it offers the framework to develop acoustic models for each entry \shortcite{Adda-Decker:2000}. Consequently, lexical design consists of two primary components: determining and selecting the vocabulary items and representing each pronunciation entry using the fundamental acoustic units of the recognizer. In large vocabulary speech recognition, the vocabulary is typically chosen to optimize lexical coverage within a specified size of the lexicon, and the basic units selected are generally phonemes or phone-like units (\shortcite{Adda-Decker:2000}.
+
+\section{Acoustic Model}
+\label{sec:AcousticModel}
+Acoustic modeling is a fundamental and preliminary step in the process of speech recognition. The acoustic model defines the relationship between acoustic data and linguistic elements. Most calculations in acoustic modeling are attributed to feature extraction and statistical representation, making it a crucial factor in the recognition process. Statistical representations are derived from the features that have been extracted \shortcite{Bhatt:2020}. In the acoustic model, the distribution of these extracted features corresponding to specific sounds is modeled to create a connection between the features and the structures of the linguistic units. 
+
+According to \shortciteA{Bhatt:2020}, several techniques for feature extraction, including those based on human perception and the mechanics of voice production, have been documented. Features were derived for acoustic modeling in a speaker-independent recognition context since such systems pose challenges in speech recognition.
+
+\section{Language Model}
+\label{sec:LanguageModel}
+Language models are crucial for various daily applications, including correcting grammatical errors, recognizing speech, and summarizing text. Due to the recent advancements in deep learning techniques, conventional n-gram and word embedding language models are being substituted with neural network-based models \shortcite{Mago:2020}.
+
+Large Language Models (LLMs) have recently shown remarkable abilities, encompassing tasks like natural language processing (NLP), language translation, text generation, and answering questions. In addition, LLMs play a vital role in computerized language processing, capable of grasping intricate verbal patterns and producing relevant and coherent responses in various contexts. However, the significant advancements in LLMs have led to a surge in research contributions, making it challenging to fully comprehend the overall impact of these developments \shortcite{Fahad:2024}.
+
+\section{Local Dialects and Low-Resource Languages On Automatic Speech Recognition}
+\label{sec:LocalDialects}
+Deep learning technologies have evolved from rudimentary systems to advanced models that can fluently comprehend natural language, making remarkable progress in their integration into Automatic Speech Recognition (ASR). Neural networks have become crucial in ASR for capturing temporal dynamics and phonetic differences, enabling wider use in virtual assistants, educational applications, and customer support \shortcite{Alharbi:2021}. Noisy environments where background sounds significantly impair the accuracy and dependability of speech recognition. The considerable challenge for languages with limited resources is the size of the vocabulary. This influences the performance of the model in which larger vocabularies enhance adaptability but demand more data and computational power. ASR systems struggle with dialectal variation, which can impede model accuracy due to differences in pronunciation, a concern for languages such as Akeanon, known for its various dialects \shortcite{Alharbi:2021}. 
+
+\section{The Akeanon Language}
+\label{sec:AkeanonLanguage}
+\subsection{History and its Speakers}
+\shortciteA{Zorc:1995} stated that Akeanon serves as the main language in the northwestern area of Panay Island in the central Philippines, boasting over 350,000 speakers. Both the language and its speakers derive their name from the Akean River, which runs through the heart of the province by the same name. The people, culture, and items linked to this river and region are referred to as Aklanon, while the language is known as Inakeanon, incorporating the -in- infix and an accent alteration, or more generally Bisaya, as Aklanons identify themselves as part of the Visayan cultural and linguistic family. Many Aklanons, particularly those in professional fields, have relocated to various major cities in the Philippines, such as Manila, Cebu, and Cotabato, in pursuit of job opportunities, with sizable communities also found in San Francisco and New York. The dialect discussed here is that of Kalibo, Aklan, the provincial capital and its main commercial hub. Other dialects are linked to the towns of Altavas, Batan, Balete, Banga, Madalag, New Washington, Numancia, Malinao, Lezo, Makato, Tangalan, Nabas, Ibajay, and Libacao—though the latter two show significant divergence, they remain mutually understandable with the others. Two towns exist within Aklan province that feature different dialects—with Buruanga associated with Kinaray-a, and Malay linked to various dialects of Tablas, Romblon. The closest languages to Akeanon are Kinaray-a and Kuyonon, both of which belong to the West Bisayan subgroup of Central Philippine languages.
+
+\subsection{Phonology}
+\textbf{Akeanon Phonology: Historical and Synchronic Perspectives}
+  
+The Akeanon language, native to the Aklan province in the Philippines, possesses a distinctive phoneme that sets it apart from other Philippine-type languages. Initially recognized as a voiced velar fricative and subsequently categorized as a velar approximant, this phoneme differentiates Akeanon from its linguistic siblings within the Bisayan group, such as Hiligaynon, Cebuano, and Kinaray-a. The initial examinations of this phoneme can be traced back to Scheerer (1920), who analyzed its correlation with Bisayan cognates. Subsequent research by de la Cruz and Zorc (1968) characterized it as a voiced velar fricative, functioning both as a consonant and a semivowel. More recent studies have reiterated its classification as a velar approximant, emphasizing its absence of articulatory turbulence (Zorc, 2005; Rentillo \& Pototanon, 2022) 
+
+\textbf{Linguistic Status and Usage of Akeanon }
+ 
+Akeanon is acknowledged as an institutional language according to the Expanded Graded Intergenerational Disruption Scale (EGIDS) and is included in the Mother Tongue-Based Multilingual Education (MTB-MLE) program in primary education. With approximately 500,000 speakers based on recent estimates, the language flourishes in both spoken and written forms, encompassing social media, radio programs, and public signages. Its phonological framework, which is defined by a three-vowel inventory and distinctive consonantal reflexes, has been influenced by historical changes and cross-linguistic interactions.
+
+\textbf{Crosslinguistic Comparisons and Historical Accounts}
+  
+The evolution of the Akeanon phoneme is believed to reflect more extensive linguistic trends, such as velarization and palatalization, seen in various languages. Rentillo and Pototanon (2022) contend that the development of the phoneme may have been shaped by regional linguistic changes or historical interactions with other Bisayan dialects. Moreover, historical accounts from figures such as de Méntrida (1841) and Monteclaro (1957) indicate cultural and linguistic connections to Borneo, which influenced the distinct characteristics of Akeanon speech.
+
+\textbf{Acoustic and Articulatory Characteristics}  
+
+Recent acoustic studies conducted by Rentillo and Pototanon (2022) offer empirical insights that differentiate the velar approximant from other phonemes. Their research demonstrates that the formant frequencies (F1 and F2) of this phoneme are lower than those of vowels, with variations that depend on adjacent phonological contexts. These findings emphasize the phoneme's unique articulatory properties, confirming its classification as an approximant rather than a fricative.
+
+\textbf{Implications for Language Documentation}  
+
+The distinctive attributes of Akeanon phonology reinforce the significance of documenting endangered and lesser-known languages. The Akeanon phoneme acts as a case study for exploring phonological diversity and innovation within Philippine languages. As noted by Rentillo and Pototanon (2022), further research could yield greater understanding of the historical and sociolinguistic elements that influence such unique linguistic features.
+
+\subsection{Morphology}
+
+\textbf{Morphology and its Role in Language}
+
+Morphology, which examines word structures and their smallest meaningful units, is fundamental to comprehending the formation and development of languages. In various languages, including Akeanon, derivational morphology transforms syntactic roles or introduces novel meanings through methods like affixation, reduplication, subtraction, and internal modification of words. These methods not only redefine lexical meanings but also influence word categories like parts of speech \shortcite{Biray:2023}.
+
+\textbf{Linguistic Diversity in the Philippines}
+
+The Philippines is distinguished by its extensive linguistic variety, containing over 180 distinct languages, predominantly of Austronesian origin. Akeanon, which has approximately 460,000 speakers, belongs to the Malayo-Polynesian language family and functions as an official language in the province of Aklan. The language shares lexical similarities with Kinaray-a and Kuyunon, accompanied by notable dialectical variations throughout the area.
+
+\textbf{Akeanon Dialectical Variations}
+
+Akeanon dialects—including Standard Akeanon, Buruangganon, Nabasnon, and Bukidnon—display specific linguistic characteristics. These dialects are shaped by their geographical and cultural backgrounds, resulting in differences in structure, word order, and affixation. For example, reduplication serves as a prominent morphological feature that modifies meanings, whereas circumfixes are frequently utilized for the formation of new words. Dialect-specific phonemic variations, such as replacing "l" with "r" in certain instances, further highlight these distinctions.
+
+\textbf{Social and Cultural Significance}
+
+The Akeanon language mirrors the social traits of its speakers, showcasing values such as hospitality and respect. Expressions of endearment and polite language are prevalent in daily interactions, emphasizing the cultural identity of the community. Despite structural differences, the fundamental meanings of expressions remain uniform across dialects, illustrating the language’s strength and flexibility.
+
+\textbf{Challenges and Preservation Efforts}
+
+Like many other languages in the Philippines, Akeanon faces challenges stemming from modernization and the growing impact of technology. Initiatives to safeguard the language include its integration into the Mother Tongue-Based Multilingual Education (MTB-MLE) framework and the creation of orthographies that document its linguistic characteristics. Nonetheless, further support from both local and national organizations is crucial to maintain and promote the language in the face of the rising influence of global languages.
+
+\subsection{The 300 Languages Project: A Worldwide Linguistic Initiative}
+The 300 Languages Project, led by The Rosetta Project and The Long Now Foundation, stands as a groundbreaking effort aimed at creating a universal collection of human languages. This project seeks to gather and digitize parallel text and audio data from the 300 most frequently spoken languages around the globe. This extensive initiative addresses the significant shortage of resources for linguistic research, particularly for lesser-known languages, by utilizing volunteer-submitted public domain texts and recordings, all of which will be made available through The Internet Archive.
+
+\textbf{Linguistic Variety and Digital Visibility}
+
+Among the roughly 7,000 languages spoken worldwide, merely 20-30 languages possess a substantial digital footprint, including English, Spanish, and Mandarin. These languages, in conjunction with the next 270-280 most spoken languages, encompass over 90\% of the global populace. In contrast, the remaining 10\% communicate in one of the 6,700 minority languages, many of which are at risk of extinction due to inadequate digital and physical documentation. The 300 Languages Project highlights the importance of showcasing these minority languages by establishing a scalable "seed corpus" that begins small but is intended to expand sustainably.
+
+\textbf{Contributions to Multilingual Research and Technological Advancements}
+
+This initiative distinguishes itself by merging linguistic preservation with technological innovation. By assembling a large-scale public domain multilingual parallel corpus, the project enables progress in speech recognition, automated translation, and cross-linguistic studies. The absence of such resources has historically limited research and development to a small number of languages with existing corpora. The project’s focus on widely translated texts, such as the Swadesh List, the Universal Declaration of Human Rights, and chapters 1-3 of Genesis, ensures extensive applicability for linguistic research and tech applications.
+
+\textbf{Volunteer-Driven, Scalable Approach}
+
+The project's dependence on volunteer-contributed materials highlights its scalability and cost-efficiency. By establishing a comprehensive protocol for language documentation, this effort lays out a replicable model for documenting additional languages beyond the initial 300. The low-cost, community-focused method reflects earlier successful documentation endeavors like the ancient Rosetta Stone, which facilitated the understanding of Egyptian hieroglyphs through parallel texts.
+
+\textbf{Significance for Language Conservation}
+
+The 300 Languages Project plays a crucial role in preserving linguistic diversity by documenting and archiving minority languages that are on the brink of disappearing. By making multilingual resources publicly accessible, the initiative not only benefits researchers but also bolsters educational and cultural preservation efforts worldwide. Its alignment with the ALLOW initiative at the Language Technologies Institute further demonstrates a collaborative dedication to advancements in speech and language technologies.
+
+\begin{comment}
 \section{Chapter Summary}
 Should include a table of related studies comparing them based on several criteria.
 
 Highlight research gaps and the research problem.
-
+\end{comment}
 
 
 
