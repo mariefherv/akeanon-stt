@@ -1,36 +1,608 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Polat%
-\ \BBA {} Oyucu%
+Adda-Decker%
+\ \BBA {} Lamel%
 }{%
-Polat%
-\ \BBA {} Oyucu%
+Adda-Decker%
+\ \BBA {} Lamel%
+}{%
+{\protect \APACyear {2000}}%
+}]{%
+Adda-Decker:2000}
+\APACinsertmetastar {%
+Adda-Decker:2000}%
+\begin{APACrefauthors}%
+Adda-Decker, M.%
+\BCBT {}\ \BBA {} Lamel, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2000}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Use of Lexica in Automatic Speech Recognition} {The
+  use of lexica in automatic speech recognition}.{\BBCQ}
+\newblock
+\BIn{} F.~Van~Eynde\ \BBA {} D.~Gibbon\ (\BEDS), \APACrefbtitle {Lexicon
+  Development for Speech and Language Processing} {Lexicon development for
+  speech and language processing}\ (\BPGS\ 235--266).
+\newblock
+\APACaddressPublisher{Dordrecht}{Springer Netherlands}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1007/978-94-010-9458-0_8}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-94-010-9458-0_8} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alejan%
+\ \protect \BOthers {.}}{%
+Alejan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Alejan:2021}
+\APACinsertmetastar {%
+Alejan:2021}%
+\begin{APACrefauthors}%
+Alejan, J\BPBI A.%
+, Ayop, J\BPBI I\BPBI E.%
+, Allojado, J\BPBI B.%
+, Abatayo, D\BPBI P\BPBI B.%
+, Abacahin, S\BPBI K\BPBI N.%
+\BCBL {}\ \BBA {} Bonifacio, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{May}{}.
+\newblock
+\APACrefbtitle {Heritage Language Maintenance and Revitalization: Evaluating
+  the Language Endangerment among the Indigenous Languages in Bukidnon,
+  Philippines.} {Heritage language maintenance and revitalization: Evaluating
+  the language endangerment among the indigenous languages in bukidnon,
+  philippines.}
+\newblock
+\begin{APACrefURL} \url{https://eric.ed.gov/?id=ED617996} \end{APACrefURL}
+\newblock
+\APACrefnote{ERIC - Online Submission}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Alharbi%
+\ \protect \BOthers {.}}{%
+Alharbi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+Alharbi:2021}
+\APACinsertmetastar {%
+Alharbi:2021}%
+\begin{APACrefauthors}%
+Alharbi, S.%
+, Alrazgan, M.%
+, Alrashed, A.%
+, AlNomasi, T.%
+, Almojel, R.%
+, Alharbi, R.%
+\BDBL {}Almojil, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{09}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automatic Speech Recognition: Systematic Literature
+  Review} {Automatic speech recognition: Systematic literature review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Access}{PP}{}{1-1}.
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ACCESS.2021.3112535} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bhatt%
+, Jain%
+\BCBL {}\ \BBA {} Dev%
+}{%
+Bhatt%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+Bhatt:2020}
+\APACinsertmetastar {%
+Bhatt:2020}%
+\begin{APACrefauthors}%
+Bhatt, S.%
+, Jain, A.%
+\BCBL {}\ \BBA {} Dev, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{01}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Acoustic Modeling in Speech Recognition: A Systematic
+  Review} {Acoustic modeling in speech recognition: A systematic
+  review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Advanced Computer Science and
+  Applications}{11}{}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.14569/IJACSA.2020.0110455} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Billones%
+\ \BBA {} Dadios%
+}{%
+Billones%
+\ \BBA {} Dadios%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+Billones:2014}
+\APACinsertmetastar {%
+Billones:2014}%
+\begin{APACrefauthors}%
+Billones, R\BPBI K\BPBI C.%
+\BCBT {}\ \BBA {} Dadios, E\BPBI P.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Hiligaynon language 5-word vocabulary speech recognition
+  using Mel frequency cepstrum coefficients and genetic algorithm} {Hiligaynon
+  language 5-word vocabulary speech recognition using mel frequency cepstrum
+  coefficients and genetic algorithm}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2014 International Conference on Humanoid,
+  Nanotechnology, Information Technology, Communication and Control,
+  Environment and Management (HNICEM)} {2014 international conference on
+  humanoid, nanotechnology, information technology, communication and control,
+  environment and management (hnicem)}\ (\BPG~1-6).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/HNICEM.2014.7016247} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Biray%
+}{%
+Biray%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Biray:2023}
+\APACinsertmetastar {%
+Biray:2023}%
+\begin{APACrefauthors}%
+Biray, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{12}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Derivational Morphology Features in Common Akeanon
+  Dialects} {Derivational morphology features in common akeanon
+  dialects}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Language and Literary
+  Studies}{5}{}{222-234}.
+\newblock
+\begin{APACrefDOI} \doi{10.36892/ijlls.v5i4.1441} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Cerna%
+, Cascaro%
+, Juan%
+, Montes%
+\BCBL {}\ \BBA {} Caballero%
+}{%
+Cerna%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Cerna:2023}
+\APACinsertmetastar {%
+Cerna:2023}%
+\begin{APACrefauthors}%
+Cerna, P\BPBI D.%
+, Cascaro, R\BPBI J.%
+, Juan, K\BPBI O\BPBI S.%
+, Montes, B\BPBI J\BPBI C.%
+\BCBL {}\ \BBA {} Caballero, A\BPBI O.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Bisayan Dialect Short-time Fourier Transform Audio
+  Recognition System using Convolutional and Recurrent Neural Network} {Bisayan
+  dialect short-time fourier transform audio recognition system using
+  convolutional and recurrent neural network}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Advanced Computer Science and
+  Applications}{14}{3}{}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.14569/IJACSA.2023.01403111}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.14569/IJACSA.2023.01403111} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Fahad%
+, Fatema%
+, Mukta%
+\BCBL {}\ \BBA {} Raiaan%
+}{%
+Fahad%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2024}}%
+}]{%
+Fahad:2024}
+\APACinsertmetastar {%
+Fahad:2024}%
+\begin{APACrefauthors}%
+Fahad, N\BPBI M.%
+, Fatema, K.%
+, Mukta, S.%
+\BCBL {}\ \BBA {} Raiaan, M\BPBI A\BPBI K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Review on Large Language Models: Architectures,
+  Applications, Taxonomies, Open Issues and Challenges} {A review on large
+  language models: Architectures, applications, taxonomies, open issues and
+  challenges}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Computer Science}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://www.mdpi.com/2227-7390/11/21/4493https://www.researchgate.net/publication/378289524_A_Review_on_Large_Language_Models_Architectures_Applications_Taxonomies_Open_Issues_and_Challenges}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1109/ACCESS.2024.3365742} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Foster%
+}{%
+Foster%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+Foster:2023}
+\APACinsertmetastar {%
+Foster:2023}%
+\begin{APACrefauthors}%
+Foster, K.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {What is Automatic Speech Recognition? A Comprehensive Overview
+  of ASR Technology.} {What is automatic speech recognition? a comprehensive
+  overview of asr technology.}
+\newblock
+\begin{APACrefURL} \url{https://www.assemblyai.com/blog/what-is-asr/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{AssemblyAI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Khan%
+\ \protect \BOthers {.}}{%
+Khan%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Khan:2023}
+\APACinsertmetastar {%
+Khan:2023}%
+\begin{APACrefauthors}%
+Khan, M.%
+, Ullah, K.%
+, Alharbi, Y.%
+, Alferaidi, A.%
+, Alharbi, T\BPBI S.%
+, Yadav, K.%
+\BDBL {}Ahmad, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Understanding the Research Challenges in Low-Resource
+  Language and Linking Bilingual News Articles in Multilingual News Archive}
+  {Understanding the research challenges in low-resource language and linking
+  bilingual news articles in multilingual news archive}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Applied Sciences}{13}{15}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.mdpi.com/2076-3417/13/15/8566}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.3390/app13158566} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Levis%
+\ \BBA {} Suvorov%
+}{%
+Levis%
+\ \BBA {} Suvorov%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Levis:2012}
+\APACinsertmetastar {%
+Levis:2012}%
+\begin{APACrefauthors}%
+Levis, J.%
+\BCBT {}\ \BBA {} Suvorov, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{11}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Automatic Speech Recognition} {Automatic speech
+  recognition}.{\BBCQ}.
+\newblock
+\begin{APACrefDOI} \doi{10.1002/9781405198431.wbeal0066} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Liao%
+\ \protect \BOthers {.}}{%
+Liao%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2019}}%
+}]{%
+Liaoetal:2019}
+\APACinsertmetastar {%
+Liaoetal:2019}%
+\begin{APACrefauthors}%
+Liao, E.%
+, Ganareal, K.%
+, Paguia, C.%
+, Agreda, C.%
+, Octaviano, M.%
+\BCBL {}\ \BBA {} Rodriguez, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2019}{11}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Towards the Development of Automatic Speech Recognition
+  for Bikol and Kapampangan} {Towards the development of automatic speech
+  recognition for bikol and kapampangan}.{\BBCQ}
+\newblock
+\BIn{} (\BPG~1-5).
+\newblock
+\begin{APACrefDOI} \doi{10.1109/HNICEM48295.2019.9072783} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Mago%
+\ \BBA {} Qudar%
+}{%
+Mago%
+\ \BBA {} Qudar%
 }{%
 {\protect \APACyear {2020}}%
 }]{%
-Polatetal}
+Mago:2020}
 \APACinsertmetastar {%
-Polatetal}%
+Mago:2020}%
 \begin{APACrefauthors}%
-Polat, H.%
-\BCBT {}\ \BBA {} Oyucu, S.%
+Mago, V.%
+\BCBT {}\ \BBA {} Qudar, M.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
 \APACrefYearMonthDay{2020}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Building a Speech and Text Corpus of Turkish: Large
-  Corpus Collection with Initial Speech Recognition Results} {Building a speech
-  and text corpus of turkish: Large corpus collection with initial speech
-  recognition results}.{\BBCQ}
+{\BBOQ}\APACrefatitle {A Survey on Language Models} {A survey on language
+  models}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{Symmetry}{12}{2}{}.
+\begin{APACrefURL}
+  \url{https://www.researchgate.net/publication/344158120_A_Survey_on_Language_Models3}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Magueresse%
+, Carles%
+\BCBL {}\ \BBA {} Heetderks%
+}{%
+Magueresse%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+Magueresse:2020}
+\APACinsertmetastar {%
+Magueresse:2020}%
+\begin{APACrefauthors}%
+Magueresse, A.%
+, Carles, V.%
+\BCBL {}\ \BBA {} Heetderks, E.%
+\end{APACrefauthors}%
+\unskip\
 \newblock
-\begin{APACrefURL} \url{https://www.mdpi.com/2073-8994/12/2/290}
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Low-resource Languages: {A} Review of Past Work and
+  Future Challenges} {Low-resource languages: {A} review of past work and
+  future challenges}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{CoRR}{abs/2006.07264}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://arxiv.org/abs/2006.07264} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Poupard%
+}{%
+Poupard%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+Poupard:2024}
+\APACinsertmetastar {%
+Poupard:2024}%
+\begin{APACrefauthors}%
+Poupard, D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Attention is all low-resource languages need} {Attention
+  is all low-resource languages need}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Translation Studies}{17}{2}{424--427}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1080/14781700.2024.2336000}
   \end{APACrefURL}
 \newblock
-\begin{APACrefDOI} \doi{10.3390/sym12020290} \end{APACrefDOI}
+\begin{APACrefDOI} \doi{10.1080/14781700.2024.2336000} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+PSA%
+}{%
+PSA%
+}{%
+{\protect \APACyear {2023}}%
+}]{%
+PSA:2023}
+\APACinsertmetastar {%
+PSA:2023}%
+\begin{APACrefauthors}%
+PSA.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {Tagalog is the Most Widely Spoken Language at Home (2020 Census
+  of Population and Housing).} {Tagalog is the most widely spoken language at
+  home (2020 census of population and housing).}
+\newblock
+\begin{APACrefURL}
+  \url{https://psa.gov.ph/content/tagalog-most-widely-spoken-language-home-2020-census-population-and-housing}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Reyes%
+\ \protect \BOthers {.}}{%
+Reyes%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1969}}%
+}]{%
+Reyes:1969}
+\APACinsertmetastar {%
+Reyes:1969}%
+\begin{APACrefauthors}%
+Reyes, V\BPBI S.%
+\BCBT {}\ \BOthersPeriod {.}
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1969}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Study of the Aklanon Dialect, Volume Two: Dictionary
+  (of Root Words and Derivations), Aklanon to English} {A study of the aklanon
+  dialect, volume two: Dictionary (of root words and derivations), aklanon to
+  english}.{\BBCQ}.
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Televic%
+}{%
+Televic%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+Televic:2024}
+\APACinsertmetastar {%
+Televic:2024}%
+\begin{APACrefauthors}%
+Televic.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{1}{}.
+\newblock
+\APACrefbtitle {The Evolution of Speech-to-Text Technology.} {The evolution of
+  speech-to-text technology.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.televic.com/en/televicgsp/news/the-evolution-of-speechtotext-technology}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Tsvetkov%
+}{%
+Tsvetkov%
+}{%
+{\protect \APACyear {2017}}%
+}]{%
+Tsvetkov:2017}
+\APACinsertmetastar {%
+Tsvetkov:2017}%
+\begin{APACrefauthors}%
+Tsvetkov, Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2017}{}{}.
+\newblock
+\APACrefbtitle {Opportunities and Challenges in Working with Low-Resource
+  Languages.} {Opportunities and challenges in working with low-resource
+  languages.}
+\newblock
+\begin{APACrefURL} \url{https://www.cs.cmu.edu/~ytsvetko/jsalt-part1.pdf}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{PDF}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zorc%
+}{%
+Zorc%
+}{%
+{\protect \APACyear {1995}}%
+}]{%
+Zorc:1995}
+\APACinsertmetastar {%
+Zorc:1995}%
+\begin{APACrefauthors}%
+Zorc, R\BPBI D.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1995}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Aklanon R. David Zorc} {Aklanon r. david zorc}.{\BBCQ}
+\newblock
+\BIn{} D\BPBI T.~Tryon\ (\BED), \APACrefbtitle {Comparative Austronesian
+  Dictionary} {Comparative austronesian dictionary}\ (\BPGS\ 343--350).
+\newblock
+\APACaddressPublisher{Berlin, New York}{De Gruyter Mouton}.
+\newblock
+\begin{APACrefURL} \url{https://doi.org/10.1515/9783110884012.1.343}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{doi:10.1515/9783110884012.1.343} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
