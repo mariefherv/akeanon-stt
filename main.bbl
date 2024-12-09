@@ -231,6 +231,32 @@ Cerna, P\BPBI D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Daniel~Povey%
+\ \BBA {} Burget%
+}{%
+Daniel~Povey%
+\ \BBA {} Burget%
+}{%
+{\protect \APACyear {2011}}%
+}]{%
+Povey:2011}
+\APACinsertmetastar {%
+Povey:2011}%
+\begin{APACrefauthors}%
+Daniel~Povey, G\BPBI B., Arnab~Goshal%
+\BCBT {}\ \BBA {} Burget, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{January}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Kaldi speech recognition toolkit} {The kaldi speech
+  recognition toolkit}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Fahad%
 , Fatema%
 , Mukta%
@@ -573,6 +599,35 @@ Tsvetkov, Y.%
   \end{APACrefURL}
 \newblock
 \APACrefnote{PDF}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Wellstood%
+}{%
+Wellstood%
+}{%
+{\protect \APACyear {2022}}%
+}]{%
+Wellstood:2022}
+\APACinsertmetastar {%
+Wellstood:2022}%
+\begin{APACrefauthors}%
+Wellstood, Z.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A relative clause analysis of event existential
+  constructions in Aklanon} {A relative clause analysis of event existential
+  constructions in aklanon}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{GLOSSA}{7}{1}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.glossa-journal.org/article/id/5866/}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.16995/glossa.5866} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
