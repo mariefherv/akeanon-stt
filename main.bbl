@@ -388,34 +388,6 @@ Liao, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Mago%
-\ \BBA {} Qudar%
-}{%
-Mago%
-\ \BBA {} Qudar%
-}{%
-{\protect \APACyear {2020}}%
-}]{%
-Mago:2020}
-\APACinsertmetastar {%
-Mago:2020}%
-\begin{APACrefauthors}%
-Mago, V.%
-\BCBT {}\ \BBA {} Qudar, M.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2020}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Survey on Language Models} {A survey on language
-  models}.{\BBCQ}
-\newblock
-\begin{APACrefURL}
-  \url{https://www.researchgate.net/publication/344158120_A_Survey_on_Language_Models3}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Magueresse%
 , Carles%
 \BCBL {}\ \BBA {} Heetderks%
@@ -496,6 +468,34 @@ PSA.%
 \newblock
 \begin{APACrefURL}
   \url{https://psa.gov.ph/content/tagalog-most-widely-spoken-language-home-2020-census-population-and-housing}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Qudar%
+\ \BBA {} Mago%
+}{%
+Qudar%
+\ \BBA {} Mago%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Mago:2020}
+\APACinsertmetastar {%
+Mago:2020}%
+\begin{APACrefauthors}%
+Qudar, M.%
+\BCBT {}\ \BBA {} Mago, V.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{09}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Survey on Language Models} {A survey on language
+  models}.{\BBCQ}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.researchgate.net/publication/344158120_A_Survey_on_Language_Models3}
   \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
