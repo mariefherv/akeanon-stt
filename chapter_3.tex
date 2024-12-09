@@ -1,13 +1,14 @@
 %   Filename    : chapter_4.tex 
 \chapter{Research Methodology}
-This chapter discusses the methodology used to develop the text and speech corpus for the Akeanon language. The chapter will be divided into two main parts: Research activities and the calendar of activities for this special problem.
+This chapter discusses the methodology used to develop the text and speech corpus for the Akeanon language, as well as building, training, and testing a model to generate initial results. The chapter will be divided into two main parts: Research activities and the calendar of activities for this special problem.
 
 \section{RESEARCH ACTIVITIES}
+Figure~\ref{fig:flowchart} shows the general overview of the methodology for the development of an ASR system for the Akeanon language.
 
 \begin{figure}[h!]
 	\centering
-	\caption{Shows the general overview of the methodology for the development of an ASR system for the Akeanon language.}
-	\includegraphics[width=\textwidth]{flowchart.png}
+	\includegraphics[width=\textwidth]{./figures/flowchart.png}
+   \caption{Research Methodology}
 	\label{fig:flowchart}
 \end{figure}
 
@@ -19,7 +20,7 @@ For the data collection, the researchers will make use of existing online resour
 
 \textbf{Compiling Akeanon Words}
 
-The researchers will collect equivalent Akeanon words based off on the Swadesh 207 word-list and use the Aklanon to English Dictionary by \citeA{Reyes:1969} as reference. In addition to the Swadesh list, the researchers have reached out to Dr. David Zorc, one of the authors of the Aklanon-to-English Dictionary, who has generously provided a soft copy of an existing database containing all the contents of the dictionary. This database was shared courtesy of Dr. Jarrette Allen, a linguist who has also worked on the Akeanon language.
+The researchers will collect equivalent Akeanon words based off on the Swadesh 207 word-list and use the Aklanon to English Dictionary by \citeA{Reyes:1969} as reference. In addition to the Swadesh list, the researchers have reached out to Dr. David Zorc, one of the authors of the Aklanon-to-English Dictionary. Not only who he granted the researchers permission to use the dictionary, but he has also generously provided a soft copy of an existing database containing all the contents of the dictionary to the researchers. This database was shared courtesy of Dr. Jarrette Allen, a linguist who has also worked on the Akeanon language.
 
 \textbf{Phonetic Transcription}
 
@@ -27,42 +28,40 @@ After compiling the Akeanon word lists, their phonetic transcription will also b
 
 \textbf{Word Selection for Speech Corpus}
 
-For building the speech corpus, the researchers will prioritize words from the Swadesh 207 list for the voice recordings. Additionally, a selection of  random Akeanon words will be prepared for speakers to read.
+For building the speech corpus, the researchers will prioritize words from the Swadesh 207 list for the voice recordings. Additionally, to complete the selection of 1000 words that will be prepared for speakers to read, the researchers will collaborate with a linguistic expert during the selection.
 
 \textbf{Voice Recording}
 
-A total of 50 native speakers of standard Akeanon will be gathered for the recording of the generated word list. The researchers have also sought a collaboration with Aklan State University, College of Teacher Education for the selection of speakers. The speakers will be of varying gender and age. For the audio recording, the microphone that will be used will be Shure SM58 (dynamic, cardiod pick-up pattern) with a Focusrite Scarlett 2i2 audio interface, having Adobe Audition 2021 as the recording software. In case of unavailability, recording over a smartphone with noise-cancelling headphones would suffice.
+A total of 50 native speakers of standard Akeanon will be gathered for the recording of the generated word list. The researchers have also sought a collaboration with Aklan State University (ASU) - College of Teacher Education for the selection of speakers. The speakers will be of varying gender and age. Table~\ref{tab:native_speakers} shows the categories of native speakers. For the audio recording, the microphone that will be used will be Shure SM58 (dynamic, cardiod pick-up pattern) with a Focusrite Scarlett 2i2 audio interface, having Adobe Audition 2021 as the recording software. In case of unavailability, recording over a smartphone with noise-cancelling headphones would suffice. The audio file will be named in the following convention: \texttt{\textless gender\textgreater\_\textless age\_group\textgreater\_\textless speaker\_number\textgreater}.
+
+\begin{table}[ht]
+   \centering
+   \caption{Categories of Native Speakers} \vspace{0.25em}
+   \label{tab:native_speakers}
+\begin{tabular}{|c|p{2in}|} \hline
+   \centering Category & Subcategories \\ \hline
+   Gender & Male \\
+   & Female \\
+   & Non-binary \\
+   & Others \\ \hline
+   Age Group & 12-15 \\
+   & 16-30 \\
+   & 31-45 \\
+   & 46-65 \\ \hline
+\end{tabular}
+\end{table}
 
 \subsection{Preprocessing}
-For preprocessing audio files, Adobe Audition 2021 will be used for recording and audio processing, which will include normalization and noise reduction of the recorded audio.
+For preprocessing audio files, Adobe Audition 2021 will be used for recording and audio processing, which will include normalization and noise reduction of the recorded audio. The cleaned up audio files will then be exported in a WAV format.
 
 \subsection{Speech and Text Corpus Development}
 The previous steps will set as a precedent for the speech and text corpus development. The development of the text corpus for the Akeanon language involves creating a comprehensive collection of audio transcriptions from pre-existing online resources, dictionary-based word list, and their respective phonetic transcriptions. For the speech corpus, the collated audio transcriptions and word list will be mapped with their corresponding voice recordings and will be annotated accordingly.
 
 \subsection{Validation}
-The researchers will collaborate with a linguistic expert, who is also a native speaker of the Akeanon language, in validating the text and speech corpora.
+In collaboration with ASU College of Teacher Education and another linguistics expert, they will be aiding the researchers by validating the newly created text and speech corpora.
 
-\begin{comment}
-This chapter lists and discusses the specific steps and activities that will be performed  to accomplish the project. 
-The discussion covers the activities from pre-proposal to Final SP Writing.
-
-\section{Research Activities}
-Research activities include inquiry, survey, research, brainstorming, canvassing, consultation, review, interview, observe, experiment, design, test, document, etc.  
-Be sure that for each method, process, or algorithm used, there is a justification why that method was chosen.
-The methodology also includes the following information:
-
-\begin{itemize}
-   \item who is responsible for the task
-   \item the resource person to be contacted
-   \item what will be done
-   \item when and how long will the activity be done
-   \item where will it be done
-   \item why should be activity be done
-\end{itemize}
-
-\textcolor{red}{DO NOT FORGET to cite your references.}
-
-\end{comment}
+\subsection{Building and Training A Model}
+To generate initial results for an ASR system, the researchers will build, train, and test a model using the Kaldi toolkit. Similar to the methods employed by \shortciteA{Panizales:2023} A six-fold cross validation scheme will be used for testing and training the data. Finally, the researchers have decided to use a DNN model for training.
 
 \section{Calendar of Activities}
 
