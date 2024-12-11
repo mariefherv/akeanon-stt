@@ -32,24 +32,32 @@ For building the speech corpus, the researchers will prioritize words from the S
 
 \textbf{Voice Recording}
 
-A total of 50 native speakers of standard Akeanon will be gathered for the recording of the generated word list. The 1000 words list will be divided into five sets, with each containing 200 words that are unique to that set. Each set will have 10 speakers for the recording. The researchers have also sought a collaboration with Aklan State University (ASU) - College of Teacher Education for the selection of speakers, with Sir John Orbien as . The speakers will be of varying gender and age. Table~\ref{tab:native_speakers} shows the categories of native speakers. For the audio recording, the microphone that will be used will be Shure SM58 (dynamic, cardiod pick-up pattern) with a Focusrite Scarlett 2i2 audio interface, having Adobe Audition 2021 as the recording software. In case of unavailability, recording over a smartphone with noise-cancelling headphones would suffice. The audio file will be named in the following convention: \texttt{\textless gender\textgreater\_\textless age\_group\textgreater\_\textless speaker\_number\textgreater}.
+A total of 50 native speakers of standard Akeanon will be gathered for the recording of the generated word list. The 1000 words list will be divided into five sets, with each containing 200 words that are unique to that set. Each set will have 10 speakers for the recording. The researchers have also sought a collaboration with Aklan State University (ASU) - College of Teacher Education for the selection of speakers, with Dr. John Orbista as the primary contact. The speakers will be of varying gender and age. Table~\ref{tab:native_speakers} shows the categories of native speakers. For the audio recording, the microphone that will be used will be Shure SM58 (dynamic, cardiod pick-up pattern) with a Focusrite Scarlett 2i2 audio interface, having Adobe Audition 2021 as the recording software. In case of unavailability, recording over a smartphone with noise-cancelling headphones would suffice. The audio file will be named in the following convention: \texttt{\textless gender\textgreater\_\textless age\_group\textgreater\_\textless speaker\_number\textgreater}.
 
 \begin{table}[ht]
    \centering
    \caption{Categories of Native Speakers} \vspace{0.25em}
    \label{tab:native_speakers}
+   % Adjust row height and column padding
+   \renewcommand{\arraystretch}{1.5} % Increase row height
+   \setlength{\tabcolsep}{10pt} % Increase horizontal padding
+
 \begin{tabular}{|c|p{2in}|} \hline
    \centering Category & Subcategories \\ \hline
-   Gender & Male \\
-   & Female \\
-   & Non-binary \\
+   Gender & Male \\ 
+   & Female \\ 
+   & Non-binary \\ 
    & Others \\ \hline
-   Age Group & 12-15 \\
-   & 16-30 \\
-   & 31-45 \\
+   Age Group & 12-15 \\ 
+   & 16-30 \\ 
+   & 31-45 \\ 
    & 46-65 \\ \hline
 \end{tabular}
 \end{table}
+
+\textbf{Ethical Considerations}
+
+In the beginning of their session for the voice recordings, participants will be given a consent form containing information relevant to the study. This consent form will serve as a formal acknowledgment of the participant's voluntary involvement and understanding of the study's objectives, procedures, and potential risks. The form will clearly explain the purpose of the research, how the data will be used, and the steps taken to ensure confidentiality and anonymity. Participants will be informed that they can withdraw from the study at any time without penalty. Additionally, the consent form will detail the nature of the voice recordings, and the storage of their data. Participants will also be made aware that their voices may be used for research analysis but will not be associated with their personal identities. Upon signing the consent form, participants will be given the opportunity to ask questions and will be reassured that their participation is entirely voluntary and that their rights will be respected throughout the study.
 
 \subsection{Preprocessing}
 For preprocessing audio files, Adobe Audition 2021 will be used for recording and audio processing, which will include normalization and noise reduction of the recorded audio. The cleaned up audio files will then be exported in a WAV format.
@@ -58,7 +66,7 @@ For preprocessing audio files, Adobe Audition 2021 will be used for recording an
 The previous steps will set as a precedent for the speech and text corpus development. The development of the text corpus for the Akeanon language involves creating a comprehensive collection of audio transcriptions from pre-existing online resources, dictionary-based word list, and their respective phonetic transcriptions. For the speech corpus, the collated audio transcriptions and word list will be mapped with their corresponding voice recordings and will be annotated accordingly.
 
 \subsection{Validation}
-In collaboration with ASU College of Teacher Education and another linguistics expert, they will be aiding the researchers by validating the newly created text and speech corpora.
+In collaboration with ASU College of Teacher Education and with the guidance of Dr. Zorc, they will be aiding the researchers by validating the newly created text and speech corpora.
 
 \subsection{Building and Training A Model}
 To generate initial results for an ASR system, the researchers will build, train, and test a model using the Kaldi toolkit. Similar to the methods employed by \shortciteA{Panizales:2023}, a ten-fold cross-validation scheme will be used for training and testing the data, with eight folds used for training and two folds used for validation. Finally, the researchers have decided to use a DNN (Deep Neural Network) model for training.

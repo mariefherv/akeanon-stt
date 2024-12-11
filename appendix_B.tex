@@ -18,15 +18,18 @@
 %	<name of institution, e.g., University of the Philippines Visayas>
 %	<e-mail address>
 %
-%
-
-%
 %  the following shows 3 examples, replace entries with your own
 %
 
-\newcommand{\resperson}[4]{\textbf{#1} \\ #2 \\ #3 \\ \url{#4}\vspace{0.5em}\\}
+\newcommand{\resperson}[5]{%
+    \textbf{#1} \\ % Name and title
+    #2 \\          % Profession
+    #3 \\          % Department
+    \ifx\empty#4\empty\else #4 \\ \fi % Only print #4 (institution) if it's not empty
+    \url{#5}\vspace{0.5em}\\  % Email address
+}
 
-\resperson{Mr. Firstname1 Lastname1}{Role1}{Affiliation1}{emailaddr1@domain.com}
-\resperson{Ms. Firstname2 Lastname2}{Role2}{Affiliation2}{emailaddr2@domain.net}
-....
-
+% Make sure all 5 arguments are provided
+\resperson{Ms. Hazel Anne Cipriano}{Linguist}{University of the Philippines Diliman}{}{havcipriano@gmail.com}
+\resperson{Dr. John Orbista}{Local Collaborator}{College of Teacher Education}{Aklan State University}{johnorbista@gmail.com}
+\resperson{Dr. R. David Zorc (Lolo David)}{Linguist}{Language Research Center, Hyattsville, MD - retired}{}{dzorc1@comcast.net}
