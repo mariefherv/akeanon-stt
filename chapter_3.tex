@@ -32,7 +32,7 @@ For building the speech corpus, the researchers will prioritize words from the S
 
 \textbf{Voice Recording}
 
-A total of 50 native speakers of standard Akeanon will be gathered for the recording of the generated word list. The researchers have also sought a collaboration with Aklan State University (ASU) - College of Teacher Education for the selection of speakers. The speakers will be of varying gender and age. Table~\ref{tab:native_speakers} shows the categories of native speakers. For the audio recording, the microphone that will be used will be Shure SM58 (dynamic, cardiod pick-up pattern) with a Focusrite Scarlett 2i2 audio interface, having Adobe Audition 2021 as the recording software. In case of unavailability, recording over a smartphone with noise-cancelling headphones would suffice. The audio file will be named in the following convention: \texttt{\textless gender\textgreater\_\textless age\_group\textgreater\_\textless speaker\_number\textgreater}.
+A total of 50 native speakers of standard Akeanon will be gathered for the recording of the generated word list. The 1000 words list will be divided into five sets, with each containing 200 words that are unique to that set. Each set will have 10 speakers for the recording. The researchers have also sought a collaboration with Aklan State University (ASU) - College of Teacher Education for the selection of speakers, with Sir John Orbien as . The speakers will be of varying gender and age. Table~\ref{tab:native_speakers} shows the categories of native speakers. For the audio recording, the microphone that will be used will be Shure SM58 (dynamic, cardiod pick-up pattern) with a Focusrite Scarlett 2i2 audio interface, having Adobe Audition 2021 as the recording software. In case of unavailability, recording over a smartphone with noise-cancelling headphones would suffice. The audio file will be named in the following convention: \texttt{\textless gender\textgreater\_\textless age\_group\textgreater\_\textless speaker\_number\textgreater}.
 
 \begin{table}[ht]
    \centering
@@ -61,7 +61,7 @@ The previous steps will set as a precedent for the speech and text corpus develo
 In collaboration with ASU College of Teacher Education and another linguistics expert, they will be aiding the researchers by validating the newly created text and speech corpora.
 
 \subsection{Building and Training A Model}
-To generate initial results for an ASR system, the researchers will build, train, and test a model using the Kaldi toolkit. Similar to the methods employed by \shortciteA{Panizales:2023}, a six-fold cross validation scheme will be used for testing and training the data. Finally, the researchers have decided to use a DNN model for training.
+To generate initial results for an ASR system, the researchers will build, train, and test a model using the Kaldi toolkit. Similar to the methods employed by \shortciteA{Panizales:2023}, a ten-fold cross-validation scheme will be used for training and testing the data, with eight folds used for training and two folds used for validation. Finally, the researchers have decided to use a DNN (Deep Neural Network) model for training.
 
 \section{Calendar of Activities}
 
