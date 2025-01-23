@@ -231,32 +231,6 @@ Cerna, P\BPBI D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Daniel~Povey%
-\ \BBA {} Burget%
-}{%
-Daniel~Povey%
-\ \BBA {} Burget%
-}{%
-{\protect \APACyear {2011}}%
-}]{%
-Povey:2011}
-\APACinsertmetastar {%
-Povey:2011}%
-\begin{APACrefauthors}%
-Daniel~Povey, G\BPBI B., Arnab~Goshal%
-\BCBT {}\ \BBA {} Burget, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2011}{January}{}.
-\newblock
-{\BBOQ}\APACrefatitle {The Kaldi speech recognition toolkit} {The kaldi speech
-  recognition toolkit}.{\BBCQ}
-\newblock
-
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Fahad%
 , Fatema%
 , Mukta%
@@ -286,8 +260,7 @@ Fahad, N\BPBI M.%
 \newblock
 \APACjournalVolNumPages{Computer Science}{}{}{}.
 \newblock
-\begin{APACrefURL}
-  \url{https://www.mdpi.com/2227-7390/11/21/4493https://www.researchgate.net/publication/378289524_A_Review_on_Large_Language_Models_Architectures_Applications_Taxonomies_Open_Issues_and_Challenges}
+\begin{APACrefURL} \url{https://www.mdpi.com/2227-7390/11/21/4493}
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1109/ACCESS.2024.3365742} \end{APACrefDOI}
@@ -414,6 +387,33 @@ Liao, E.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Mago%
+\ \BBA {} Qudar%
+}{%
+Mago%
+\ \BBA {} Qudar%
+}{%
+{\protect \APACyear {2020}}%
+}]{%
+Mago:2020}
+\APACinsertmetastar {%
+Mago:2020}%
+\begin{APACrefauthors}%
+Mago, V.%
+\BCBT {}\ \BBA {} Qudar, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{}{}.
+\newblock
+\APACrefbtitle {A Survey on Language Models.} {A survey on language models.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.researchgate.net/publication/344158120_A_Survey_on_Language_Models3}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Magueresse%
 , Carles%
 \BCBL {}\ \BBA {} Heetderks%
@@ -441,6 +441,37 @@ Magueresse, A.%
 \APACjournalVolNumPages{CoRR}{abs/2006.07264}{}{}.
 \newblock
 \begin{APACrefURL} \url{https://arxiv.org/abs/2006.07264} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Panizales%
+, Jr.%
+\BCBL {}\ \BBA {} Piorque%
+}{%
+Panizales%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+Panizales:2023}
+\APACinsertmetastar {%
+Panizales:2023}%
+\begin{APACrefauthors}%
+Panizales, J\BPBI P.%
+, Jr., B\BPBI G.%
+\BCBL {}\ \BBA {} Piorque, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2023}{}{}.
+\newblock
+\APACrefbtitle {SpeakNow: A Speech-to-Text System for the Hiligaynon Language
+  using Kaldi Toolkit.} {Speaknow: A speech-to-text system for the hiligaynon
+  language using kaldi toolkit.}
+\newblock
+\APAChowpublished {Undergraduate Thesis, University of the Philippines
+  Visayas}.
+\newblock
+\APACrefnote{Accessible through the UPV Computer Science Faculty}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -472,6 +503,35 @@ Poupard, D.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Povey%
+, Goshal%
+, Boullianne%
+\BCBL {}\ \BBA {} Burget%
+}{%
+Povey%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2011}}%
+}]{%
+Povey:2011}
+\APACinsertmetastar {%
+Povey:2011}%
+\begin{APACrefauthors}%
+Povey, D.%
+, Goshal, A.%
+, Boullianne, G.%
+\BCBL {}\ \BBA {} Burget, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2011}{January}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Kaldi speech recognition toolkit} {The kaldi speech
+  recognition toolkit}.{\BBCQ}
+\newblock
+
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 PSA%
 }{%
 PSA%
@@ -498,55 +558,34 @@ PSA.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Qudar%
-\ \BBA {} Mago%
+Rentillo%
+\ \BBA {} Pototanon%
 }{%
-Qudar%
-\ \BBA {} Mago%
+Rentillo%
+\ \BBA {} Pototanon%
 }{%
-{\protect \APACyear {2020}}%
+{\protect \APACyear {2022}}%
 }]{%
-Mago:2020}
+Rentillo:2022}
 \APACinsertmetastar {%
-Mago:2020}%
+Rentillo:2022}%
 \begin{APACrefauthors}%
-Qudar, M.%
-\BCBT {}\ \BBA {} Mago, V.%
+Rentillo, P.%
+\BCBT {}\ \BBA {} Pototanon, R\BPBI M\BPBI D.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2020}{09}{}.
+\APACrefYearMonthDay{2022}{Jan.}{}.
 \newblock
-{\BBOQ}\APACrefatitle {A Survey on Language Models} {A survey on language
-  models}.{\BBCQ}
+{\BBOQ}\APACrefatitle {A Synchronic and Historical Look at Aklanon Phonology}
+  {A synchronic and historical look at aklanon phonology}.{\BBCQ}
 \newblock
-\begin{APACrefURL}
-  \url{https://www.researchgate.net/publication/344158120_A_Survey_on_Language_Models3}
+\APACjournalVolNumPages{Acta Linguistica Asiatica}{12}{1}{91–127}.
+\newblock
+\begin{APACrefURL} \url{https://journals.uni-lj.si/ala/article/view/10359}
   \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Reyes%
-\ \protect \BOthers {.}}{%
-Reyes%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {1969}}%
-}]{%
-Reyes:1969}
-\APACinsertmetastar {%
-Reyes:1969}%
-\begin{APACrefauthors}%
-Reyes, V\BPBI S.%
-\BCBT {}\ \BOthersPeriod {.}
-\end{APACrefauthors}%
-\unskip\
 \newblock
-\APACrefYearMonthDay{1969}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {A Study of the Aklanon Dialect, Volume Two: Dictionary
-  (of Root Words and Derivations), Aklanon to English} {A study of the aklanon
-  dialect, volume two: Dictionary (of root words and derivations), aklanon to
-  english}.{\BBCQ}.
+\begin{APACrefDOI} \doi{10.4312/ala.12.1.91-127} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -658,6 +697,33 @@ Zorc, R\BPBI D.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{doi:10.1515/9783110884012.1.343} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Zorc%
+, Reyes%
+\BCBL {}\ \BBA {} Prado%
+}{%
+Zorc%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {1969}}%
+}]{%
+Reyes:1969}
+\APACinsertmetastar {%
+Reyes:1969}%
+\begin{APACrefauthors}%
+Zorc, R\BPBI D.%
+, Reyes, V\BPBI S.%
+\BCBL {}\ \BBA {} Prado, N.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{1969}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Study of the Aklanon Dialect, Volume Two: Dictionary
+  (of Root Words and Derivations), Aklanon to English} {A study of the aklanon
+  dialect, volume two: Dictionary (of root words and derivations), aklanon to
+  english}.{\BBCQ}.
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}

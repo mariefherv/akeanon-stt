@@ -1,76 +1,75 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.11.28)  9 DEC 2024 17:51
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.11.28)  23 JAN 2025 16:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"D:/School Files/5th Year, 1st Sem/CMSC 198.1/akeanon-stt/main.tex"
-(D:/School Files/5th Year, 1st Sem/CMSC 198.1/akeanon-stt/main.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
+**./main.tex
+(main.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-07-20>
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
 e 3.
 
-(D:/School Files/5th Year, 1st Sem/CMSC 198.1/akeanon-stt\preamble.tex
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
-Document Class: report 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(preamble.tex
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2024/02/08 v1.4n Standard LaTeX document class
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+File: size12.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count187
-\c@chapter=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\c@part=\count190
+\c@chapter=\count191
+\c@section=\count192
+\c@subsection=\count193
+\c@subsubsection=\count194
+\c@paragraph=\count195
+\c@subparagraph=\count196
+\c@figure=\count197
+\c@table=\count198
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
-Package: pdfpages 2024/10/28 v0.6c Insert pages of external PDF documents (AM)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+Package: pdfpages 2024/05/29 v0.6a Insert pages of external PDF documents (AM)
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count196
-\calc@Bcount=\count197
-\calc@Adimen=\dimen141
-\calc@Bdimen=\dimen142
-\calc@Askip=\skip50
-\calc@Bskip=\skip51
+\calc@Acount=\count199
+\calc@Bcount=\count266
+\calc@Adimen=\dimen142
+\calc@Bdimen=\dimen143
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count198
-\calc@Cskip=\skip52
+\calc@Ccount=\count267
+\calc@Cskip=\skip53
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen143
-\ESO@tempdimb=\dimen144
+\ESO@tempdima=\dimen144
+\ESO@tempdimb=\dimen145
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-Package xcolor Info: Driver file: pdftex.def on input line 274.
+Package xcolor Info: Driver file: xetex.def on input line 274.
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
-) (C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
 )
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
 Package xcolor Info: Model `RGB' extended on input line 1366.
 Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
 Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
@@ -78,117 +77,118 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-)) (C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+)) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cf
 g
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: xetex.def on input line 106.
 )
-\Gin@req@height=\dimen145
-\Gin@req@width=\dimen146
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
 )
-\AM@pagewidth=\dimen147
-\AM@pageheight=\dimen148
-\AM@fboxrule=\dimen149
+\AM@pagewidth=\dimen148
+\AM@pageheight=\dimen149
+\AM@fboxrule=\dimen150
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
-File: pppdftex.def 2024/10/28 v0.6c Pdfpages driver for pdfTeX (AM)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\ppxetex.def
+File: ppxetex.def 2024/05/29 v0.6a Pdfpages driver for XeTeX (AM)
 )
-\pdfpages@includegraphics@status=\count199
-\AM@pagebox=\box51
+\pdfpages@includegraphics@status=\count268
+\AM@pagebox=\box52
 \AM@global@opts=\toks18
-\AM@pagecnt=\count266
+\AM@pagecnt=\count269
 \AM@toc@title=\toks19
 \AM@lof@heading=\toks20
-\c@AM@survey=\count267
-\AM@templatesizebox=\box52
+\c@AM@survey=\count270
+\AM@templatesizebox=\box53
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
 Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count268
-\bibleftmargin=\skip53
-\bibindent=\skip54
-\bibparsep=\skip55
-\bibitemsep=\skip56
-\biblabelsep=\skip57
+\c@BibCnt=\count271
+\bibleftmargin=\skip54
+\bibindent=\skip55
+\bibparsep=\skip56
+\bibitemsep=\skip57
+\biblabelsep=\skip58
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip58
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/05/23 v2.17q AMS math features
+\@mathmargin=\skip59
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
-\ex@=\dimen150
+\ex@=\dimen151
 ))
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen151
+\pmbraise@=\dimen152
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count269
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count270
-\leftroot@=\count271
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count272
-\DOTSCASE@=\count273
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box53
-\strutbox@=\box54
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen152
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count274
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count275
-\dotsspace@=\muskip16
-\c@parentequation=\count276
-\dspbrk@lvl=\count277
+\inf@bad=\count272
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count273
+\leftroot@=\count274
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count275
+\DOTSCASE@=\count276
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count277
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count278
+\dotsspace@=\muskip17
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
 \tag@help=\toks22
-\row@=\count278
-\column@=\count279
-\maxfields@=\count280
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
 \andhelp@=\toks23
-\eqnshift@=\dimen153
-\alignsep@=\dimen154
-\tagshift@=\dimen155
-\tagwidth@=\dimen156
-\totwidth@=\dimen157
-\lineht@=\dimen158
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
 \@envbody=\toks24
-\multlinegap=\skip59
-\multlinetaggap=\skip60
+\multlinegap=\skip60
+\multlinetaggap=\skip61
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -196,109 +196,106 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
-Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks26
 \verbatim@line=\toks27
 \verbatim@in@stream=\read2
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks28
 \XKV@tempa@toks=\toks29
 )
-\XKV@depth=\count281
+\XKV@depth=\count284
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-)) (C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+)) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
-) (C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.st
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.st
 y
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box55
+\collectedbox=\box56
 )
-\tc@llx=\dimen159
-\tc@lly=\dimen160
-\tc@urx=\dimen161
-\tc@ury=\dimen162
-Package trimclip Info: Using driver 'tc-pdftex.def'.
+\tc@llx=\dimen160
+\tc@lly=\dimen161
+\tc@urx=\dimen162
+\tc@ury=\dimen163
+Package trimclip Info: Using driver 'tc-xetex.def'.
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
-File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-xetex.def
+File: tc-xetex.def 2019/01/04 v2.2 Clipping driver for xetex
 ))
-\adjbox@Width=\dimen163
-\adjbox@Height=\dimen164
-\adjbox@Depth=\dimen165
-\adjbox@Totalheight=\dimen166
-\adjbox@pwidth=\dimen167
-\adjbox@pheight=\dimen168
-\adjbox@pdepth=\dimen169
-\adjbox@ptotalheight=\dimen170
-
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+\adjbox@Width=\dimen164
+\adjbox@Height=\dimen165
+\adjbox@Depth=\dimen166
+\adjbox@Totalheight=\dimen167
+\adjbox@pwidth=\dimen168
+\adjbox@pheight=\dimen169
+\adjbox@pdepth=\dimen170
+\adjbox@ptotalheight=\dimen171
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count282
-) (C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+\c@checkoddpage=\count285
+) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box56
-\sift@deathcycles=\count283
-\@vwid@loff=\dimen171
-\@vwid@roff=\dimen172
-)) (C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+\@vwid@box=\box57
+\sift@deathcycles=\count286
+\@vwid@loff=\dimen172
+\@vwid@roff=\dimen173
+)) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
 Package: lineno 2023/05/20 line numbers on paragraphs v5.3
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count284
+\etb@tempcnta=\count287
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Invalid UTF-8 byte or sequence at line 292 replaced by U+FFFD.
+
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-\linenopenalty=\count285
+\linenopenalty=\count288
 \output=\toks30
-\linenoprevgraf=\count286
-\linenumbersep=\dimen173
-\linenumberwidth=\dimen174
-\c@linenumber=\count287
-\c@pagewiselinenumber=\count288
-\c@LN@truepage=\count289
-\c@internallinenumber=\count290
-\c@internallinenumbers=\count291
-\quotelinenumbersep=\dimen175
-\bframerule=\dimen176
-\bframesep=\dimen177
-\bframebox=\box57
-\linenoamsmath@ams@eqpen=\count292
+\linenoprevgraf=\count289
+\linenumbersep=\dimen174
+\linenumberwidth=\dimen175
+\c@linenumber=\count290
+\c@pagewiselinenumber=\count291
+\c@LN@truepage=\count292
+\c@internallinenumber=\count293
+\c@internallinenumbers=\count294
+\quotelinenumbersep=\dimen176
+\bframerule=\dimen177
+\bframesep=\dimen178
+\bframebox=\box58
+\linenoamsmath@ams@eqpen=\count295
 LaTeX Info: Redefining \\ on input line 3180.
-) (C:\Users\ACER\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
-) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.sty
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse
-.sty (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2024-07-20 L3 programming layer (loader) 
-
+))
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xete
 x.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
@@ -306,40 +303,14 @@ File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
 \l__pdf_internal_box=\box59
 \g__pdf_backend_annotation_int=\count297
 \g__pdf_backend_link_int=\count298
-))
-Package: xparse 2024-05-08 L3 Experimental document command parser
-)
-Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
-
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec-xetex.
-sty
-Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTe
-X
-\l__fontspec_script_int=\count299
-\l__fontspec_language_int=\count300
-\l__fontspec_strnum_int=\count301
-\l__fontspec_tmp_int=\count302
-\l__fontspec_tmpa_int=\count303
-\l__fontspec_tmpb_int=\count304
-\l__fontspec_tmpc_int=\count305
-\l__fontspec_em_int=\count306
-\l__fontspec_emdef_int=\count307
-\l__fontspec_strong_int=\count308
-\l__fontspec_strongdef_int=\count309
-\l__fontspec_tmpa_dim=\dimen179
-\l__fontspec_tmpb_dim=\dimen180
-\l__fontspec_tmpc_dim=\dimen181
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
-)
-(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/fontspec\fontspec.cfg)))
 )
 
 LaTeX Warning: Unused global option(s):
     [onepage].
 
 (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
-(chapter_3.aux))
+(chapter_3.aux) (chapter_4.aux) (appendix_A.aux) (appendix_B.aux)
+(appendix_C.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -382,70 +353,13 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-\c@maskedRefs=\count310
+\c@maskedRefs=\count299
 
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
-
-Package fontspec Info: 
-(fontspec)             Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
-
-\symlegacymaths=\mathgroup6
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 6.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 6.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 6.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 6.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 6.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 6.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 6.
-LaTeX Font Info:    Redeclaring math accent \check on input line 6.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 6.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 6.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 6.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 6.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 6.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 6.
 \openout2 = `title_page.aux'.
 
 
@@ -458,25 +372,24 @@ LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 \openout2 = `abstract.aux'.
 
  (abstract.tex
-
-[1
-
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
 
 
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
-
- (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
 
 
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-[2]) (main.toc
+[1
+
+
+
+]) (main.toc
 
 [2
 
@@ -490,21 +403,23 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 
-[4] (main.lof)
+[4] (main.lof
+
+[5
+
+])
 \tf@lof=\write4
 \openout4 = `main.lof'.
 
 
 
-[5
-
-] (main.lot)
+[6] (main.lot)
 \tf@lot=\write5
 \openout5 = `main.lot'.
 
 
 
-[6
+[7
 
 ]
 \openout2 = `chapter_1.aux'.
@@ -523,12 +438,6 @@ Chapter 1.
 [3]
 
 [4]
-Overfull \hbox (11.49634pt too wide) in paragraph at lines 38--39
-[]\TU/lmr/m/n/12 Collect and compile existing Akeanon language resources, inclu
-ding dictionary-
- []
-
-
 
 [5]
 
@@ -570,118 +479,223 @@ arkable progress
 
 [16]
 
-[17])
+[17]
 
-[18]
+[18])
+
+[19]
 \openout2 = `chapter_3.aux'.
 
  (chapter_3.tex
 Chapter 3.
-File: flowchart.png Graphic file (type bmp)
-<flowchart.png>
+File: ./figures/flowchart.png Graphic file (type bmp)
+<./figures/flowchart.png>
 
 
-[19
+[20
 
 
 
 
 ]
 
-[20]
-
 [21]
-Underfull \hbox (badness 2653) in paragraph at lines 101--101
+
+[22]
+
+[23]
+
+[24]
+Underfull \hbox (badness 2653) in paragraph at lines 122--122
 \TU/lmr/m/n/12 munication for Collabora-
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 103--103
+Underfull \hbox (badness 8000) in paragraph at lines 122--122
 []\TU/lmr/m/n/12 Proposal Document Cre-
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 108--108
+Underfull \hbox (badness 4981) in paragraph at lines 122--122
 []\TU/lmr/m/n/12 Corpus Development and
- []
-
-
-Overfull \hbox (73.31569pt too wide) in paragraph at lines 96--115
- [][] 
  []
 
 )
 
-[22]
+[25]
 
-[23] (main.bbl
+[26]
+\openout2 = `chapter_4.aux'.
 
-[24
+ (chapter_4.tex
+Chapter 4.
+File: ./appendix/prelim_transcription.png Graphic file (type bmp)
+<./appendix/prelim_transcription.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./appendix/dictionary.png Graphic file (type bmp)
+<./appendix/dictionary.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+
+[27
+
 
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 247--269
-[][][][] [] [][][][][] [] [][] [] [][] [] [][][][][][][][][] [][][] [][][] [] [
-][][][][][][][][][][][][] [] [][][][] [] [][][][][][][][][][][] []
- []
 
+[28] (main.bbl
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--269
-[][][][][][][][][] [] [][] [] [][][][][][][] [] [][][] [] [][][][][][] [] [][][
-][][][][][][] [] [][][][][][][] [] [][][][][][][][][][][][][][] []
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--269
-[][][][][][][][][][][][][] [] [][][][][][][][][][][] [] [][][][][] [] [][][][][
-][][] [] [][][][] [] [][][][][][][][][][][]$   \TU/lmr/m/n/12 doi:
- []
+[29
 
 
 
-[25]
-Underfull \hbox (badness 1490) in paragraph at lines 403--417
+]
+
+[30]
+Underfull \hbox (badness 1490) in paragraph at lines 402--415
 \TU/lmr/m/n/12 trieved from $[][][][][] [][][] [][][] [] [][][][][][][][][][][]
 [][] [] [][][][] [] [][][][][][][][][][][] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 487--501
+Underfull \hbox (badness 10000) in paragraph at lines 545--559
 [][][][][][][] [] [][][][][][][] [] [][][][][] [] [][][][][][][] [] [][][][][][
 ][] [] [][][][][][][][][] [] [][][][][] [] [][][][][] [] [][][][][][][] []
  []
 
 
-Underfull \hbox (badness 1997) in paragraph at lines 537--550
+
+[31]
+Underfull \hbox (badness 1997) in paragraph at lines 602--615
 []\TU/lmr/m/n/12 Televic.  (2024, 1).  \TU/lmr/m/it/12 The evolution of speech-
 to-text technology.  \TU/lmr/m/n/12 Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 537--550
+Underfull \hbox (badness 10000) in paragraph at lines 602--615
 \TU/lmr/m/n/12 trieved from $[][][][][] [][][] [][][] [] [][][][][][][][] [] []
 [][][] [] [][] [] [][][][][][][][][][] [] [][][][] []
  []
 
+)
+
+[32]
+\openout2 = `appendix_A.aux'.
+
+ (appendix_A.tex
+Appendix A.
+File: ./appendix/dav.png Graphic file (type bmp)
+<./appendix/dav.png>
+File: ./appendix/biblepermision.png Graphic file (type bmp)
+<./appendix/biblepermision.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./appendix/letters_Page_1.png Graphic file (type bmp)
+<./appendix/letters_Page_1.png>
+
+LaTeX Warning: Float too large for page by 0.31819pt on input line 31.
 
 
-[26])
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
-(chapter_3.aux))
+File: ./appendix/letters_Page_2.png Graphic file (type bmp)
+<./appendix/letters_Page_2.png>
+
+LaTeX Warning: Float too large for page by 14.80618pt on input line 38.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./appendix/letters_Page_3.png Graphic file (type bmp)
+<./appendix/letters_Page_3.png>
+
+LaTeX Warning: Float too large for page by 0.31819pt on input line 45.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./appendix/letters_Page_4.png Graphic file (type bmp)
+<./appendix/letters_Page_4.png>
+
+LaTeX Warning: Float too large for page by 14.81819pt on input line 52.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+
+[33
+
+
+]
+
+[34]
+
+[35]
+
+[36]
+
+[37]
+
+[38]
+\openout2 = `appendix_B.aux'.
+
+ (appendix_B.tex
+Appendix B.
+)
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
+
+[39
+
+
+
+
+]
+\openout2 = `appendix_C.aux'.
+
+ (appendix_C.tex
+Appendix C.
+File: ./appendix/prelim_transcription.png Graphic file (type bmp)
+<./appendix/prelim_transcription.png>
+File: ./appendix/dictionary.png Graphic file (type bmp)
+<./appendix/dictionary.png>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)
+
+[40
+
+
+
+
+]
+
+[41] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
+(chapter_3.aux) (chapter_4.aux) (appendix_A.aux) (appendix_B.aux)
+(appendix_C.aux))
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 8936 strings out of 409029
- 186589 string characters out of 5756943
+ 6731 strings out of 409029
+ 105699 string characters out of 5756943
  1939612 words of memory out of 5000000
- 31441 multiletter control sequences out of 15000+600000
+ 29214 multiletter control sequences out of 15000+600000
  562834 words of font info for 69 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 86i,10n,98p,1891b,356s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,84p,1886b,345s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (35 pages).
+Output written on main.pdf (49 pages).

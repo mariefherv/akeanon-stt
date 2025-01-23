@@ -16,6 +16,12 @@ A level-1 auxiliary file: chapter_3.aux
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: chapter_4.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_A.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_B.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_C.aux
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
@@ -31,123 +37,48 @@ Warning--I'm ignoring Zorc:1995's extra "booktitle" field
 Warning--entry type for "Foster:2023" isn't style-file defined
 --line 405 of file mainreferences.bib
 Warning--entry type for "Alejan:2021" isn't style-file defined
---line 603 of file mainreferences.bib
---line 613 of file mainreferences.bib
+--line 631 of file mainreferences.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-Name 1 in "Daniel Povey, Arnab Goshal, Gilles Boullianne, and Lukas Burget" has a comma at the end for entry Povey:2011
-while executing---line 5062 of file apacite.bst
-Name 1 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5062 of file apacite.bst
-Name 2 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5062 of file apacite.bst
-Name 3 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5062 of file apacite.bst
-Name 1 in "Daniel Povey, Arnab Goshal, Gilles Boullianne, and Lukas Burget" has a comma at the end for entry Povey:2011
-while executing---line 5066 of file apacite.bst
-Name 1 in "Daniel Povey, Arnab Goshal, Gilles Boullianne, and Lukas Burget" has a comma at the end for entry Povey:2011
-while executing---line 5066 of file apacite.bst
-Name 1 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5066 of file apacite.bst
-Name 1 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5066 of file apacite.bst
-Name 1 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5068 of file apacite.bst
-Name 1 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5068 of file apacite.bst
-Name 1 in "Daniel Povey, Arnab Goshal, Gilles Boullianne, and Lukas Burget" has a comma at the end for entry Povey:2011
-while executing---line 5068 of file apacite.bst
-Name 1 in "Daniel Povey, Arnab Goshal, Gilles Boullianne, and Lukas Burget" has a comma at the end for entry Povey:2011
-while executing---line 5068 of file apacite.bst
-Name 1 in "Daniel Povey, Arnab Goshal, Gilles Boullianne, and Lukas Burget" has a comma at the end for entry Povey:2011
-while executing---line 5072 of file apacite.bst
-Name 1 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5072 of file apacite.bst
-Name 2 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5072 of file apacite.bst
-Name 3 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5072 of file apacite.bst
-Name 1 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5075 of file apacite.bst
-Name 2 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5075 of file apacite.bst
-Name 3 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5075 of file apacite.bst
-Name 1 in "Daniel Povey, Arnab Goshal, Gilles Boullianne, and Lukas Burget" has a comma at the end for entry Povey:2011
-while executing---line 5075 of file apacite.bst
-Name 1 in "Daniel Povey, Arnab Goshal, Gilles Boullianne, and Lukas Burget" has a comma at the end for entry Povey:2011
-while executing---line 5076 of file apacite.bst
-Name 1 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5076 of file apacite.bst
-Name 2 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5076 of file apacite.bst
-Name 3 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5076 of file apacite.bst
-Name 1 in "Daniel Povey, Arnab Goshal, Gilles Boullianne, and Lukas Burget" has a comma at the end for entry Povey:2011
-while executing---line 5079 of file apacite.bst
-Name 1 in "Daniel Povey, Arnab Goshal, Gilles Boullianne, and Lukas Burget" has a comma at the end for entry Povey:2011
-while executing---line 5079 of file apacite.bst
-Name 1 in "Daniel Povey, Arnab Goshal, Gilles Boullianne, and Lukas Burget" has a comma at the end for entry Povey:2011
-while executing---line 5079 of file apacite.bst
 Warning--No journal in Povey:2011
-Name 1 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5079 of file apacite.bst
-Name 2 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5079 of file apacite.bst
-Name 3 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5079 of file apacite.bst
-Name 1 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5079 of file apacite.bst
-Name 1 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5079 of file apacite.bst
-Name 2 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5079 of file apacite.bst
-Name 3 in "Nur Mohammad Fahad, and Kaniz Fatema, and Saddam Mukta, and Mohaimenul Azam Khan Raiaan" has a comma at the end for entry Fahad:2024
-while executing---line 5079 of file apacite.bst
-Warning--No journal in Mago:2020
-ptr=1, stack=
-
----the literal stack isn't empty for entry Mago:2020
-while executing---line 5079 of file apacite.bst
-Warning--`others' not consistent with 6th ed. of the APA Manual
-You've used 22 entries,
+You've used 24 entries,
             6951 wiz_defined-function locations,
-            1428 strings with 15747 characters,
-and the built_in function-call counts, 43854 in all, are:
-= -- 5547
-> -- 356
-< -- 2137
-+ -- 2251
-- -- 46
-* -- 2785
-:= -- 7928
-add.period$ -- 85
-call.type$ -- 20
-change.case$ -- 357
+            1461 strings with 16522 characters,
+and the built_in function-call counts, 51770 in all, are:
+= -- 6505
+> -- 427
+< -- 2530
++ -- 2661
+- -- 52
+* -- 3306
+:= -- 9369
+add.period$ -- 103
+call.type$ -- 24
+change.case$ -- 429
 chr.to.int$ -- 0
-cite$ -- 41
-duplicate$ -- 1140
-empty$ -- 1621
-format.name$ -- 606
-if$ -- 8266
+cite$ -- 49
+duplicate$ -- 1363
+empty$ -- 1928
+format.name$ -- 725
+if$ -- 9758
 int.to.chr$ -- 0
-int.to.str$ -- 66
+int.to.str$ -- 72
 missing$ -- 0
-newline$ -- 544
-num.names$ -- 164
-pop$ -- 855
+newline$ -- 658
+num.names$ -- 196
+pop$ -- 1053
 preamble$ -- 1
-purify$ -- 96
+purify$ -- 114
 quote$ -- 0
-skip$ -- 3014
+skip$ -- 3191
 stack$ -- 0
-substring$ -- 2466
-swap$ -- 619
-text.length$ -- 77
+substring$ -- 2905
+swap$ -- 734
+text.length$ -- 86
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2128
-warning$ -- 2
-while$ -- 222
+type$ -- 2448
+warning$ -- 1
+while$ -- 267
 width$ -- 0
-write$ -- 668
-(There were 24 error messages)
+write$ -- 814
+(There were 4 warnings)
