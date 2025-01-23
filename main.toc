@@ -21,13 +21,14 @@
 \contentsline {chapter}{\numberline {3}Research Methodology}{20}{}%
 \contentsline {section}{\numberline {3.1}RESEARCH ACTIVITIES}{20}{}%
 \contentsline {subsection}{\numberline {3.1.1}Data Collection}{21}{}%
-\contentsline {subsection}{\numberline {3.1.2}Preprocessing}{22}{}%
-\contentsline {subsection}{\numberline {3.1.3}Speech and Text Corpus Development}{22}{}%
-\contentsline {subsection}{\numberline {3.1.4}Validation}{23}{}%
-\contentsline {section}{\numberline {3.2}Calendar of Activities}{23}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results}{25}{}%
-\contentsline {section}{\numberline {4.1}Text and Phonetic Transcription}{25}{}%
-\contentsline {chapter}{References}{28}{}%
-\contentsline {chapter}{\numberline {A}Appendix}{32}{}%
-\contentsline {section}{\numberline {A.1}Permissions}{33}{}%
-\contentsline {section}{\numberline {A.2}Transcribed Text}{34}{}%
+\contentsline {subsection}{\numberline {3.1.2}Preprocessing}{24}{}%
+\contentsline {subsection}{\numberline {3.1.3}Speech and Text Corpus Development}{24}{}%
+\contentsline {subsection}{\numberline {3.1.4}Validation}{24}{}%
+\contentsline {subsection}{\numberline {3.1.5}Building and Training A Model}{25}{}%
+\contentsline {section}{\numberline {3.2}Calendar of Activities}{25}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results}{27}{}%
+\contentsline {section}{\numberline {4.1}Text and Phonetic Transcription}{27}{}%
+\contentsline {chapter}{References}{29}{}%
+\contentsline {chapter}{\numberline {A}Research Ethics Documents}{33}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{39}{}%
+\contentsline {chapter}{\numberline {C}Initial Results of the Text Corpus}{40}{}%
