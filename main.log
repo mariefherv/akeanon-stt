@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.11.28)  23 JAN 2025 16:45
+This is XeTeX, Version 3.141592653-2.6-0.999996 (MiKTeX 24.4) (preloaded format=xelatex 2024.11.28)  28 JAN 2025 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -295,14 +295,41 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 LaTeX Info: Redefining \\ on input line 3180.
 ) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
+) (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count296
+\lst@gtempboxa=\box59
+\lst@token=\toks31
+\lst@length=\count297
+\lst@currlwidth=\dimen179
+\lst@column=\count298
+\lst@pos=\count299
+\lst@lostspace=\dimen180
+\lst@width=\dimen181
+\lst@newlines=\count300
+\lst@lineno=\count301
+\lst@maxwidth=\dimen182
+
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/05/25 1.10b (Carsten Heinz)
+)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/05/25 1.10b (Carsten Heinz)
+\c@lstnumber=\count302
+\lst@skipnumbers=\count303
+\lst@framebox=\box60
+)
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/05/25 1.10b listings configuration
 ))
+Package: listings 2024/05/25 1.10b (Carsten Heinz)
+)
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xete
 x.def
 File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count296
-\l__pdf_internal_box=\box59
-\g__pdf_backend_annotation_int=\count297
-\g__pdf_backend_link_int=\count298
+\g__graphics_track_int=\count304
+\l__pdf_internal_box=\box61
+\g__pdf_backend_annotation_int=\count305
+\g__pdf_backend_link_int=\count306
 )
 
 LaTeX Warning: Unused global option(s):
@@ -353,13 +380,14 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 98.
 
 ))
-\c@maskedRefs=\count299
+\c@maskedRefs=\count307
 
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
 )
+\c@lstlisting=\count308
 \openout2 = `title_page.aux'.
 
 
@@ -498,6 +526,12 @@ File: ./figures/flowchart.png Graphic file (type bmp)
 
 
 ]
+Overfull \hbox (0.14787pt too wide) in paragraph at lines 28--29
+\TU/lmr/m/n/12 (1969), A Thesaurus in Aklanon by []Pastrana (2012), and Diksyun
+aryong Akeanon-
+ []
+
+
 
 [21]
 
@@ -506,25 +540,29 @@ File: ./figures/flowchart.png Graphic file (type bmp)
 [23]
 
 [24]
-Underfull \hbox (badness 2653) in paragraph at lines 122--122
+
+[25]
+
+[26]
+Underfull \hbox (badness 2653) in paragraph at lines 162--162
 \TU/lmr/m/n/12 munication for Collabora-
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 122--122
+Underfull \hbox (badness 8000) in paragraph at lines 162--162
 []\TU/lmr/m/n/12 Proposal Document Cre-
  []
 
 
-Underfull \hbox (badness 4981) in paragraph at lines 122--122
+Underfull \hbox (badness 4981) in paragraph at lines 162--162
 []\TU/lmr/m/n/12 Corpus Development and
  []
 
 )
 
-[25]
+[27]
 
-[26]
+[28]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
@@ -541,50 +579,50 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-[27
-
-
-
-
-]
-
-[28] (main.bbl
-
 [29
 
 
 
+
 ]
 
-[30]
-Underfull \hbox (badness 1490) in paragraph at lines 402--415
+[30] (main.bbl
+
+[31
+
+
+
+]
+
+[32]
+Underfull \hbox (badness 1490) in paragraph at lines 433--446
 \TU/lmr/m/n/12 trieved from $[][][][][] [][][] [][][] [] [][][][][][][][][][][]
 [][] [] [][][][] [] [][][][][][][][][][][] [] [][][][][][][][][] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 545--559
+Underfull \hbox (badness 10000) in paragraph at lines 598--612
 [][][][][][][] [] [][][][][][][] [] [][][][][] [] [][][][][][][] [] [][][][][][
 ][] [] [][][][][][][][][] [] [][][][][] [] [][][][][] [] [][][][][][][] []
  []
 
 
 
-[31]
-Underfull \hbox (badness 1997) in paragraph at lines 602--615
+[33]
+Underfull \hbox (badness 1997) in paragraph at lines 678--691
 []\TU/lmr/m/n/12 Televic.  (2024, 1).  \TU/lmr/m/it/12 The evolution of speech-
 to-text technology.  \TU/lmr/m/n/12 Re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 602--615
+Underfull \hbox (badness 10000) in paragraph at lines 678--691
 \TU/lmr/m/n/12 trieved from $[][][][][] [][][] [][][] [] [][][][][][][][] [] []
 [][][] [] [][] [] [][][][][][][][][][] [] [][][][] []
  []
 
 )
 
-[32]
+[34]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
@@ -630,20 +668,20 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-[33
+[35
 
 
 ]
-
-[34]
-
-[35]
 
 [36]
 
 [37]
 
 [38]
+
+[39]
+
+[40]
 \openout2 = `appendix_B.aux'.
 
  (appendix_B.tex
@@ -655,7 +693,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
 
 
-[39
+[41
 
 
 
@@ -674,14 +712,14 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 )
 
-[40
+[42
 
 
 
 
 ]
 
-[41] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
+[43] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux)
 (chapter_3.aux) (chapter_4.aux) (appendix_A.aux) (appendix_B.aux)
 (appendix_C.aux))
  ***********
@@ -690,12 +728,12 @@ L3 programming layer <2024-07-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6731 strings out of 409029
- 105699 string characters out of 5756943
- 1939612 words of memory out of 5000000
- 29214 multiletter control sequences out of 15000+600000
- 562834 words of font info for 69 fonts, out of 8000000 for 9000
+ 7992 strings out of 409029
+ 124489 string characters out of 5756943
+ 2043612 words of memory out of 5000000
+ 30460 multiletter control sequences out of 15000+600000
+ 562850 words of font info for 71 fonts, out of 8000000 for 9000
  1350 hyphenation exceptions out of 8191
- 79i,12n,84p,1886b,345s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,84p,1886b,1620s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (49 pages).
+Output written on main.pdf (51 pages).

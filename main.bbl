@@ -330,6 +330,37 @@ Khan, M.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Krauwer%
+}{%
+Krauwer%
+}{%
+{\protect \APACyear {2003}}%
+}]{%
+Krauwer:2003}
+\APACinsertmetastar {%
+Krauwer:2003}%
+\begin{APACrefauthors}%
+Krauwer, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2003}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {The Basic Language Resource Kit (BLARK) as the First
+  Milestone for the Language Resources Roadmap} {The basic language resource
+  kit (blark) as the first milestone for the language resources
+  roadmap}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Proceedings of the European Network in Human Language
+  Technologies Workshop.} {Proceedings of the european network in human
+  language technologies workshop.}
+\newblock
+\APACaddressPublisher{Utrecht, The Netherlands}{ELSNET}.
+\newblock
+\begin{APACrefURL} \url{http://www.elsnet.org/dox/blark.html} \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Levis%
 \ \BBA {} Suvorov%
 }{%
@@ -475,6 +506,28 @@ Panizales, J\BPBI P.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Pastrana%
+}{%
+Pastrana%
+}{%
+{\protect \APACyear {2012}}%
+}]{%
+Pastrana:2012}
+\APACinsertmetastar {%
+Pastrana:2012}%
+\begin{APACrefauthors}%
+Pastrana, T\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+\APACrefbtitle {A Thesaurus in Aklanon.} {A thesaurus in aklanon.}
+\newblock
+\APACrefnote{Retrieved at Kalibo Municipal Library}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Poupard%
 }{%
 Poupard%
@@ -586,6 +639,29 @@ Rentillo, P.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.4312/ala.12.1.91-127} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sarabia-Belayro%
+}{%
+Sarabia-Belayro%
+}{%
+{\protect \APACyear {2015}}%
+}]{%
+Belayro:2015}
+\APACinsertmetastar {%
+Belayro:2015}%
+\begin{APACrefauthors}%
+Sarabia-Belayro, E.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2015}{}{}.
+\newblock
+\APACrefbtitle {Diksyunaryong Akeanon-English-Filipino.} {Diksyunaryong
+  akeanon-english-filipino.}
+\newblock
+\APACrefnote{Retrieved at Kalibo Municipal Library}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

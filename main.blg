@@ -40,45 +40,45 @@ Warning--entry type for "Alejan:2021" isn't style-file defined
 --line 657 of file mainreferences.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in Povey:2011
-You've used 24 entries,
+You've used 27 entries,
             6951 wiz_defined-function locations,
-            1461 strings with 16522 characters,
-and the built_in function-call counts, 51770 in all, are:
-= -- 6505
-> -- 427
-< -- 2530
-+ -- 2661
-- -- 52
-* -- 3306
-:= -- 9369
-add.period$ -- 103
-call.type$ -- 24
-change.case$ -- 429
+            1480 strings with 17002 characters,
+and the built_in function-call counts, 56659 in all, are:
+= -- 7143
+> -- 457
+< -- 2741
++ -- 2856
+- -- 58
+* -- 3577
+:= -- 10200
+add.period$ -- 117
+call.type$ -- 27
+change.case$ -- 481
 chr.to.int$ -- 0
-cite$ -- 49
-duplicate$ -- 1363
-empty$ -- 1928
-format.name$ -- 725
-if$ -- 9758
+cite$ -- 55
+duplicate$ -- 1476
+empty$ -- 2145
+format.name$ -- 767
+if$ -- 10745
 int.to.chr$ -- 0
-int.to.str$ -- 72
+int.to.str$ -- 81
 missing$ -- 0
-newline$ -- 658
-num.names$ -- 196
-pop$ -- 1053
+newline$ -- 728
+num.names$ -- 220
+pop$ -- 1252
 preamble$ -- 1
-purify$ -- 114
+purify$ -- 126
 quote$ -- 0
-skip$ -- 3191
+skip$ -- 3481
 stack$ -- 0
-substring$ -- 2905
-swap$ -- 734
-text.length$ -- 86
+substring$ -- 3117
+swap$ -- 790
+text.length$ -- 92
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 2448
+type$ -- 2752
 warning$ -- 1
-while$ -- 267
+while$ -- 282
 width$ -- 0
-write$ -- 814
+write$ -- 890
 (There were 4 warnings)
