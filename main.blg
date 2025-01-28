@@ -35,9 +35,9 @@ Database file #1: mainreferences.bib
 Warning--I'm ignoring Zorc:1995's extra "booktitle" field
 --line 101 of file mainreferences.bib
 Warning--entry type for "Foster:2023" isn't style-file defined
---line 405 of file mainreferences.bib
+--line 431 of file mainreferences.bib
 Warning--entry type for "Alejan:2021" isn't style-file defined
---line 631 of file mainreferences.bib
+--line 657 of file mainreferences.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 Warning--No journal in Povey:2011
 You've used 24 entries,

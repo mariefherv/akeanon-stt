@@ -18,13 +18,50 @@ Figure~\ref{fig:flowchart} shows the general overview of the methodology for the
 
 For the data collection, the researchers will make use of existing online resources from the website, Bible.com (see Appendix A for permission to use their resources). These resources include recordings and transcriptions of the Akeanon translations of the multiple books and chapters of the Bible.
 
+\textbf{Gathering, Encoding, and Digitization of Non-Digital Resources}
+
+The researchers will gather different Akeanon-based resources and text available at Kalibo Municipal library, to which include a dictionaries and thesaurus in Akeanon, songs, fables and tales, poems, and different collections of Akeanon text. The gathered resources will then be manually encoded and converted into digital format. For dictionaries and thesaurus, it will be encoded and organized in a way that can be conveniently parsed for annotations. The Akeanon texts and literary pieces will be encoded and stored in plain text for future analysis.
+
+
 \textbf{Compiling Akeanon Words}
 
-The researchers will collect equivalent Akeanon words based off on the Swadesh 207 word-list and use the Aklanon to English Dictionary by \citeA{Reyes:1969} as reference. In addition to the Swadesh list, the researchers have reached out to Dr. David Zorc, one of the authors of the Aklanon-to-English Dictionary. Not only who he granted the researchers permission to use the dictionary, but he has also generously provided a soft copy of an existing database containing all the contents of the dictionary to the researchers. This database was shared courtesy of Dr. Jarrette Allen, a linguist who has also worked on the Akeanon language.
+The researchers will collect equivalent Akeanon words based off on the Swadesh 207 word-list, the Aklanon to English Dictionary by \citeA{Reyes:1969}, A Thesaurus in Aklanon by \citeA{Pastrana:2012}, and Diksyunaryong Akeanon-English-Filipino by \citeA{Belayro:2015} as references. All Akeanon words that can be found in all the collected and encoded resources will also be taken into account.
 
 \textbf{Phonetic Transcription}
 
 After compiling the Akeanon word lists, their phonetic transcription will also be encoded, using the work of \shortciteA{Rentillo:2022} as reference for Akeanon phonology. Audio transcriptions retrieved from the Bible.com will also have their phonetic transcriptions be encoded. For the phonetic transcription the researchers will seek assistance from Ms. Hazel Cipriano, a linguist who is also a native speaker of the language.
+
+\textbf{Extraction, Storing, and Parsing}
+
+After encoding and organizing datasets across different sources accordingly, the data will be extracted and stored in a central database for the entire word collection. To ensure uniformity among various data sources, a word is stored in the following object format:
+
+\begin{lstlisting}[language=json, caption=Object structure for storing a word, breaklines=true]
+   {"word": "Akeanon word",
+   "attributes": {
+      "en_trans": "English translation"
+      "type": "root", // Two types: "root" or "inflection"
+      "pos": "noun", // Part-of-speech tag
+      "root": null,  // For "root" type, this is null.
+      "affixes": { // If it is an inflection
+         "prefixes": ["prefix1", "prefix2"],
+         "suffixes": ["suffix1", "suffix2"],
+         "infixes": ["infix1"]
+      },
+      "inflections": ["inflection1", "inflection2"],  
+      "derivations": ["derived_word1", "derived_word2"],
+      "synonyms": ["synonym1", "synonym2"],
+      "antonyms": ["antonym1", "antonym2"],
+      "examples": [
+         {
+         "sentence": "Example sentence using the word.",
+         "translation": "Translated sentence."
+         }
+      ],
+      "frequency": 123, // Frequency count across all sources
+      "notes": "Additional notes"
+   }}
+
+\end{lstlisting}
 
 \textbf{Word Selection for Speech Corpus}
 
@@ -55,6 +92,8 @@ A total of 50 native speakers of standard Akeanon will be gathered for the recor
 \end{table}
 
 \textbf{Ethical Considerations}
+
+During the gathering of the different Akeanon-based resources and text, the researchers have sought consent from the respective authors to use their works, in respect to intellectual property rights. A notable example was when the researchers have reached out to Dr. David Zorc, one of the authors of the Aklanon-to-English Dictionary. Not only who he granted the researchers permission to use the dictionary, but he has also generously provided a soft copy of an existing database containing all the contents of the dictionary to the researchers. This database was shared courtesy of Dr. Jarrette Allen, a linguist who has also worked on the Akeanon language.
 
 At the beginning of their session for the voice recordings, participants will be provided with a consent form containing information relevant to the study. This consent form will serve as a formal acknowledgment of the participant's voluntary involvement and understanding of the study's objectives, procedures, and potential risks. The form will clearly explain the purpose of the research, how the data will be used, and the steps taken to ensure confidentiality and anonymity. Participants will be informed that they can withdraw from the study at any time without penalty. Additionally, the consent form will detail the nature of the voice recordings and the storage of their data. Participants will also be made aware that their voices may be used for research analysis but will not be associated with their personal identities.
 
