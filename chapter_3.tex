@@ -25,24 +25,25 @@ The researchers will gather different Akeanon-based resources and text available
 
 \textbf{Compiling Akeanon Words}
 
-The researchers will collect equivalent Akeanon words based off on the Swadesh 207 word-list, the Aklanon to English Dictionary by \citeA{Reyes:1969}, A Thesaurus in Aklanon by \citeA{Pastrana:2012}, and Diksyunaryong Akeanon-English-Filipino by \citeA{Belayro:2015} as references. All Akeanon words that can be found in all the collected and encoded resources will also be taken into account.
+The researchers will collect equivalent Akeanon words based off on the Swadesh 207 word-list, the Aklanon to English Dictionary by \citeA{Reyes:1969}, A Thesaurus in Aklanon by \citeA{Pastrana:2012}, and Diksyunaryong Akeanon-English-Filipino by \citeA{Belayro:2015} as references. All Akeanon words that can be found in all the collected and encoded resources will also be taken into account, including the collated pre-existing online resources. In addition, the different Akeanon dialects, namely Bukidnon, Buruangganon, Malaynon, and Nabasnon, will also be taken into consideration where the researchers will tap native speakers for each dialect and build on the Swadesh list as a starting point.
 
-\textbf{Phonetic Transcription}
+% \textbf{Phonetic Transcription}
 
-After compiling the Akeanon word lists, their phonetic transcription will also be encoded, using the work of \shortciteA{Rentillo:2022} as reference for Akeanon phonology. Audio transcriptions retrieved from the Bible.com will also have their phonetic transcriptions be encoded. For the phonetic transcription the researchers will seek assistance from Ms. Hazel Cipriano, a linguist who is also a native speaker of the language.
+% After compiling the Akeanon word lists, their phonetic transcription will also be encoded, using the work of \shortciteA{Rentillo:2022} as reference for Akeanon phonology. Audio transcriptions retrieved from the Bible.com will also have their phonetic transcriptions be encoded. For the phonetic transcription the researchers will seek assistance from Ms. Hazel Cipriano, a linguist who is also a native speaker of the language.
 
-\textbf{Extraction, Storing, and Parsing}
+\textbf{Extraction and Storing}
 
-After encoding and organizing datasets across different sources accordingly, the data will be extracted and stored in a central database for the entire word collection. To ensure uniformity among various data sources, a word is stored in the following object format:
+After encoding and organizing the datasets across different sources accordingly, the data will be extracted and stored in a central database for the entire word collection. To ensure uniformity among various data sources, a word is stored in the following object format:
 
 \begin{lstlisting}[language=json, caption=Object structure for storing a word, breaklines=true]
-   {"word": "Akeanon word",
+   {
+   "word": "Akeanon word",
    "attributes": {
-      "en_trans": "English translation"
-      "type": "root", // Two types: "root" or "inflection"
+      "en_trans": ["English translation", "Other translation"]
+      "type": "root", // Types: "root"/"inflection"/"derivation"
       "pos": "noun", // Part-of-speech tag
-      "root": null,  // For "root" type, this is null.
-      "affixes": { // If it is an inflection
+      "stem": null,  // For "root" type, this is null.
+      "affixes": { // If it is an inflection or derivation
          "prefixes": ["prefix1", "prefix2"],
          "suffixes": ["suffix1", "suffix2"],
          "infixes": ["infix1"]
@@ -57,15 +58,20 @@ After encoding and organizing datasets across different sources accordingly, the
          "translation": "Translated sentence."
          }
       ],
-      "frequency": 123, // Frequency count across all sources
+      "frequency": 123, // Frequency count across all sources,
+      "source": "Source where the word was derived",
       "notes": "Additional notes"
    }}
 
 \end{lstlisting}
 
+For the database, the researchers will use Prisma Postgres for storage to efficiently manage complex relationships between the word objects and provide room for scalability as the corpus expands.
+
 \textbf{Word Selection for Speech Corpus}
 
-For building the speech corpus, the researchers will prioritize words from the Swadesh 207 list for the voice recordings. Additionally, to complete the selection of 1000 words that will be prepared for speakers to read, the researchers will collaborate with a linguistic expert during the selection.
+For building the speech corpus, the researchers will prioritize words from the Swadesh 207 list for the voice recordings. Additionally, to complete the selection of 1000 words that will be prepared for speakers to read, the researchers will collaborate with a linguistic expert during the selection to ensure that the word-lists will be phonetically balanced.
+
+In preparation, the researchers will coordinate with  Ms. Hazel Cipriano, a linguistic expert and a native speaker of the language, in helping identify the possible phonemes and graphemes for the Akeanon language in consideration of the work of \shortciteA{Rentillo:2022} as well as reference for Akeanon phonology. After identifying the phonemes and graphemes for the language, the researchers will manually generate a word list that covers all the identified phonemes and common combinations. The word list will then be validated by the linguistic expert and as well as, with the aid of Dr. John E. Barrios, a native speaker of Akeanon and has numerous works featuring the said language, ensuring wide and even phoneme coverage and that the distribution of phonemes aligns with natural speech patterns.
 
 \textbf{Voice Recording}
 
@@ -103,10 +109,13 @@ For minor participants, additional ethical measures will be implemented. A separ
 For preprocessing audio files, Adobe Audition 2021 will be used for recording and audio processing, which will include normalization and noise reduction of the recorded audio. The cleaned up audio files will then be exported in a WAV format.
 
 \subsection{Speech and Text Corpus Development}
-The previous steps will set as a precedent for the speech and text corpus development. The development of the text corpus for the Akeanon language involves creating a comprehensive collection of audio transcriptions from pre-existing online resources, dictionary-based word list, and their respective phonetic transcriptions. For the speech corpus, the collated audio transcriptions and word list will be mapped with their corresponding voice recordings and will be annotated accordingly.
+The previous steps will set as a precedent for the speech and text corpus development. The development of the text corpus for the Akeanon language involves creating a comprehensive collection of audio transcriptions from pre-existing online resources, dictionary-based word list, and Akeanon literature and text. For the speech corpus, the collated audio transcriptions and word list will be mapped with their corresponding voice recordings and will be annotated accordingly.
 
 \subsection{Validation}
-In collaboration with ASU College of Teacher Education and with the guidance of Dr. Zorc, they will be aiding the researchers by validating the newly created text and speech corpora.
+
+To validate the text corpus, the researchers will coordinate with native speakers and language experts such as Dr. Barrios, to ensure the accuracy of the spelling and grammar. The researchers will also coordinate with Ms. Cipriano again to aid the researchers in validating the accuracy and consistency of the tokenization and annotations of the developed text corpus.
+
+For the speech corpus validation, the researchers will again rely on native speakers, along with Dr. Barrios, to ensure the accuracy of the transcriptions. The transcription accuracy will be further verified by comparing the transcriptions to the spoken content and ensuring consistency across the entire corpus.
 
 \subsection{Building and Training A Model}
 To generate initial results for an ASR system, the researchers will build, train, and test a model using the Kaldi toolkit. Similar to the methods employed by \shortciteA{Panizales:2023}, a ten-fold cross-validation scheme will be used for training and testing the data, with eight folds used for training and two folds used for validation. Finally, the researchers have decided to use a DNN (Deep Neural Network) model for training.
