@@ -25,11 +25,70 @@ The researchers will gather different Akeanon-based resources and text available
 
 \textbf{Compiling Akeanon Words}
 
-The researchers will collect equivalent Akeanon words based off on the Swadesh 207 word-list, the Aklanon to English Dictionary by \citeA{Reyes:1969}, A Thesaurus in Aklanon by \citeA{Pastrana:2012}, and Diksyunaryong Akeanon-English-Filipino by \citeA{Belayro:2015} as references. All Akeanon words that can be found in all the collected and encoded resources will also be taken into account, including the collated pre-existing online resources. In addition, the different Akeanon dialects, namely Bukidnon, Buruangganon, Malaynon, and Nabasnon, will also be taken into consideration where the researchers will tap native speakers for each dialect and build on the Swadesh list as a starting point. The goal is to have at least 20000 Akeanon words in the collection, including the inflections, derivations, and dialect variations.
+The researchers will collect equivalent Akeanon words based off on the Swadesh 207 word-list, the Aklanon to English Dictionary by \citeA{Reyes:1969}, A Thesaurus in Aklanon by \citeA{Pastrana:2012}, and Diksyunaryong Akeanon-English-Filipino by \citeA{Belayro:2015} as references. All Akeanon words that can be found in all the collected and encoded resources will also be taken into account, including the collated pre-existing online resources. In addition, the different Akeanon dialects, namely Bukidnon, Buruangganon, Malaynon, and Nabasnon, will also be taken into consideration where the researchers will tap native speakers for each dialect and build on the Swadesh list as a starting point. The goal is to have at least 20000 Akeanon words in the collection, including inflections, derivations, and dialect variations.
 
-% \textbf{Phonetic Transcription}
+\textbf{Phonetic Transcription}
 
-% After compiling the Akeanon word lists, their phonetic transcription will also be encoded, using the work of \shortciteA{Rentillo:2022} as reference for Akeanon phonology. Audio transcriptions retrieved from the Bible.com will also have their phonetic transcriptions be encoded. For the phonetic transcription the researchers will seek assistance from Ms. Hazel Cipriano, a linguist who is also a native speaker of the language.
+After compiling the Akeanon word lists, the researchers will seek the assistance of Ms. Hazel Cipriano, a linguist who is also a native speaker of the language, to help create a simplified phonemic tables for the Akeanon language using the work of \shortciteA{Zorc:1995, Rentillo:2022} as reference for Akeanon phonology. Table~\ref{tab:simplified_consonant} and Table~\ref{tab:simplified_vowel} show the simplified phonemic tables. These simplified versions of the consonant and vowel phonemic tables will be used as reference when encoding the phonetic transcription of the words. Note that in this simplified version of the Akeanon consonant inventory, the glottal stop (\textipa{P}) is ignored for the transcription and some vowel phonemes were merged under one symbol for the simplification of phonetic transcription of spoken Akeanon. The encoded phonetic transcription will later be used for building and training a model in Kaldi.
+
+\begin{table}[H]
+   \centering
+   \caption{Simplified Consonant Phonemes with Examples and Transcription} \vspace{0.25em}
+   \label{tab:simplified_consonant}
+   \renewcommand{\arraystretch}{1.2} % Adjust row height
+   \setlength{\tabcolsep}{5pt} % Adjust column spacing
+   \begin{tabular}{|c|c|c|c|}
+       \hline
+       \textbf{Consonant} & \textbf{Symbol} & \textbf{Example Word} & \textbf{Phonetic Transcription} \\ 
+       \hline
+       b & b & baeay & b a ea y \\ \hline 
+       d & d & daean & d a ea n\\ \hline 
+       g & g & gasto & g a s t o \\ \hline 
+       h & h & hambae & h a m b ae \\ \hline 
+       k & k & kama & k a m a \\ \hline 
+       j & y & yabi & y a b i \\ \hline 
+       l & l & libat & l i p a t \\ \hline 
+       m & m & mayad & m a y a d \\ \hline 
+       n & n & nipa & n i p a \\ \hline 
+       \textipa{N} & ng & ngipon & ng i p o n \\ \hline
+       p & p & paea & p a ea a \\ \hline 
+       \textfishhookr & r & relo & r e l o \\ \hline
+       s & s & saea & s a ea \\ \hline 
+       t & t & tanan & t a n a n \\ \hline 
+       \textturnmrleg & ea & eawas & ea w a s \\ \hline
+       w & w & waea & w a ea \\ \hline 
+       (\textipa{dz}) & dz & dzai (slang) & dz a i \\ \hline 
+       (\textipa{dZ}) & dy & madya & m a dy a \\ \hline
+       (f) & f & Filipino & f i l i p i n o \\ \hline 
+       (\textipa{S}) & sh & masyado & m a sh a d o \\ \hline
+       (\textipa{ts}) & ts & matsa & m a ts a \\ \hline
+       (\textipa{tS}) & ch & chamba & ch a m b a \\ \hline
+       (v) & v & Visayas (name) & v i s a y a s \\ \hline  
+       (z) & z & Zolina (name) & z o l i n a \\ 
+       \hline
+   \end{tabular}
+\end{table}
+
+\begin{table}[H]
+   \centering
+   \caption{Simplified Vowel Phonemes with Examples and Transcription} \vspace{0.25em}
+   \label{tab:simplified_vowel}
+   \renewcommand{\arraystretch}{1.2} % Adjust row height
+   \setlength{\tabcolsep}{5pt} % Adjust column spacing
+   \begin{tabular}{|c|c|c|c|}
+       \hline
+       \textbf{Vowel} & \textbf{Symbol} & \textbf{Example Word} & \textbf{Phonetic Transcription} \\ 
+       \hline
+       a & a & aeang-aeang & a ea ng a ea ng \\ \hline
+       e / (\textepsilon) & \textipa{e} & pwede & p w e d e \\ \hline
+       i & i & ibog & \textipa{i b o g} \\ \hline
+       o / (\textopeno) & \textipa{o} & oras & o r a s \\ \hline
+       u & u & ugat & \textipa{u g a t} \\ 
+       \hline
+   \end{tabular}
+\end{table}
+
+
 
 \textbf{Extraction and Storing}
 
@@ -39,7 +98,6 @@ After encoding and organizing the datasets across different sources accordingly,
    {
    "word": "Akeanon word",
    "attributes": {
-      "en_trans": ["English translation", "Other translation"],
       "type": "root", // Types: "root"/"inflection"/"derivation",
       "variation": "Standard" // Specify dialect/variation
       "pos": "noun", // Part-of-speech tag
@@ -51,16 +109,7 @@ After encoding and organizing the datasets across different sources accordingly,
       },
       "inflections": ["inflection1", "inflection2"],  
       "derivations": ["derived_word1", "derived_word2"],
-      "synonyms": ["synonym1", "synonym2"],
-      "antonyms": ["antonym1", "antonym2"],
-      "examples": [
-         {
-         "sentence": "Example sentence using the word.",
-         "translation": "Translated sentence."
-         }
-      ],
-      "frequency": 123, // Frequency count across all sources,
-      "source": "Source where the word was derived",
+      "source": "Source of the word,
       "notes": "Additional notes"
    }}
 
@@ -70,15 +119,13 @@ For the database, the researchers will use Prisma Postgres for storage to effici
 
 \textbf{Word Selection for Speech Corpus}
 
-For building the speech corpus, the researchers will prioritize words from the Swadesh 207 list for the voice recordings. Additionally, to complete the selection of 1000 words that will be prepared for speakers to read, the researchers will collaborate with a linguistic expert during the selection to ensure that the word-lists will be phonetically balanced.
-
-In preparation, the researchers will coordinate with  Ms. Hazel Cipriano, a linguistic expert and a native speaker of the language, in helping identify the possible phonemes and graphemes for the Akeanon language in consideration of the work of \shortciteA{Rentillo:2022} as well as reference for Akeanon phonology. After identifying the phonemes and graphemes for the language, the researchers will manually generate a word list that covers all the identified phonemes and common combinations. The word list will then be validated by the linguistic expert and as well as, with the aid of Dr. John E. Barrios, a native speaker of Akeanon and has numerous works featuring the said language, ensuring wide and even phoneme coverage and that the distribution of phonemes aligns with natural speech patterns.
+For building the speech corpus, the researchers will prioritize words from the Swadesh 207 list for the voice recordings. Additionally, to complete the selection of 1000 words that will be prepared for speakers to read, the researchers will manually generate a word list that covers all the phonemes and common combinations based on the simplified phoneme tables. The word list will then be validated by the linguistic expert, along with the assistance of Dr. John E. Barrios, a native speaker of Akeanon and has numerous works featuring the said language. The validation must ensure the sets of word lists are phonetically balanced and that they have wide and even phoneme coverage.
 
 \textbf{Voice Recording}
 
-A total of 50 native speakers of the Akeanon language, including its dialects, will be gathered for the recording of the generated word list. The 1000 words list will be divided into five sets, with each containing 200 words that are unique to that set. Each set will have 10 speakers for the recording. The researchers have also sought a collaboration with Aklan State University (ASU) - College of Teacher Education for the selection of speakers, with Dr. John Orbista as the primary contact. The speakers will be of varying gender, age, and spoken dialect to ensure diversity. Table~\ref{tab:native_speakers} shows the categories of native speakers. For the audio recording, the microphone that will be used will be Shure SM58 (dynamic, cardiod pick-up pattern) with a Focusrite Scarlett 2i2 audio interface, having Adobe Audition 2021 as the recording software. In case of unavailability, recording over a smartphone with noise-cancelling headphones would suffice. The audio file will be named in the following convention: \texttt{\textless gender\textgreater\_\textless age\_group\textgreater\_\textless spoken\_dialect\textgreater\_\textless speaker\_number\textgreater}.
+A total of 50 native speakers of the Akeanon language, including its dialects, will be gathered for the recording of the generated word list. The 1000 words list will be divided into five sets, with each containing 200 words that are unique to that set. Each set will have 10 speakers for the recording. The researchers have also sought a collaboration with Aklan State University (ASU) - College of Teacher Education for the selection of speakers, with Dr. John Orbista as the primary contact. The speakers will be of varying gender, age, and spoken dialect to ensure diversity. For native speakers of different dialects, a modified set of word list will be given to them, in respect of their spoken dialect. Table~\ref{tab:native_speakers} shows the categories of native speakers. 
 
-\begin{table}[ht]
+\begin{table}[H]
    \centering
    \caption{Categories of Native Speakers} \vspace{0.25em}
    \label{tab:native_speakers}
@@ -105,6 +152,10 @@ A total of 50 native speakers of the Akeanon language, including its dialects, w
 \end{tabular}
 \end{table}
 
+For the audio recording, the microphone that will be used will be Shure SM58 (dynamic, cardiod pick-up pattern) with a Focusrite Scarlett 2i2 audio interface, having Adobe Audition 2021 as the recording software. In case of unavailability, recording over a smartphone with noise-cancelling headphones would suffice. The audio file will be named in the following convention: 
+
+\texttt{\textless gender\textgreater\_\textless age\_group\textgreater\_\textless spoken\_dialect\textgreater\_\textless speaker\_number\textgreater}.
+
 \textbf{Ethical Considerations}
 
 During the gathering of the different Akeanon-based resources and text, the researchers have sought consent from the respective authors to use their works, in respect to intellectual property rights. A notable example was when the researchers have reached out to Dr. David Zorc, one of the authors of the Aklanon-to-English Dictionary. Not only who he granted the researchers permission to use the dictionary, but he has also generously provided a soft copy of an existing database containing all the contents of the dictionary to the researchers. This database was shared courtesy of Dr. Jarrette Allen, a linguist who has also worked on the Akeanon language.
@@ -117,7 +168,9 @@ For minor participants, additional ethical measures will be implemented. A separ
 For preprocessing audio files, Adobe Audition 2021 will be used for recording and audio processing, which will include normalization and noise reduction of the recorded audio. The cleaned up audio files will then be exported in a WAV format.
 
 \subsection{Speech and Text Corpus Development}
-The previous steps will set as a precedent for the speech and text corpus development. The development of the text corpus for the Akeanon language involves creating a comprehensive collection of audio transcriptions from pre-existing online resources, dictionary-based word list, and Akeanon literature and text. For the speech corpus, the collated audio transcriptions and word list will be mapped with their corresponding voice recordings and will be annotated accordingly.
+The previous steps will set as a precedent for the speech and text corpus development. The development of the text corpus for the Akeanon language involves creating a comprehensive word collection from collected audio transcriptions from pre-existing online resources, dictionaries, thesaurus, glossaries, and Akeanon literature and text. Each word object will contain attributes such as type, variation (dialect), part-of-speech tag, stem or root word and its affixations (if the word is an inflection or derivation), list of derivations or inflections (if the word is a root word), source, and additional notes. These attributes will serve as annotations for the processing of the dataset in the future.
+
+For the speech corpus, the collated audio transcriptions and word list will be mapped with their corresponding voice recordings and will be annotated accordingly.
 
 \subsection{Validation}
 

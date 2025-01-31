@@ -116,7 +116,7 @@ The structure of Kaldi, an open-source toolkit available for speech recognition 
 \section{The Basic Language Resource Kit}
 \label{sec: BLARK}
 The Basic Language Resource Kit (BLARK) is a framework designed to give and provide a minimal set of resource language that is required in conducting pre competitive research and education in language and speech technology \shortcite{Krauwer:2003}. This concept is important in languages that are underrepresented, this helps researchers and developers address the gaps in linguistic resource availability and advances in technology. The framework ensures that underrepresented languages that often lack commercial interest are not forgotten in the global information society. 
-The target audience for BLARK are researchers, both in academia and in industry, and educators. The framework is used as a material to train students for research of pilot experiment and applications. It is important to have tools for production and annotation of a new corpora and source format for all modules and resources available when using BLARK, to make industrial developers freely adapt and use the framework to the specific requirements of their application.
+The target audience for BLARK are researchers, both in academia and in industry, and educators. The framework is used as a material to train students for research of pilot experiment and applications. It is important to have tools for production and annotation of a new corpus and source format for all modules and resources available when using BLARK, to make industrial developers freely adapt and use the framework to the specific requirements of their application.
 
 \section{The Akeanon Language}
 \label{sec:AkeanonLanguage}
@@ -126,7 +126,58 @@ The target audience for BLARK are researchers, both in academia and in industry,
 \subsection{Phonology}
 \textbf{Akeanon Phonology: Historical and Synchronic Perspectives}
   
-The Akeanon language, native to the Aklan province in the Philippines, possesses a distinctive phoneme that sets it apart from other Philippine-type languages. Initially recognized as a voiced velar fricative and subsequently categorized as a velar approximant, this phoneme differentiates Akeanon from its linguistic siblings within the Bisayan group, such as Hiligaynon, Cebuano, and Kinaray-a. The initial examinations of this phoneme can be traced back to Scheerer (1920), who analyzed its correlation with Bisayan cognates. Subsequent research by de la Cruz and Zorc (1968) characterized it as a voiced velar fricative, functioning both as a consonant and a semivowel. More recent studies have reiterated its classification as a velar approximant, emphasizing its absence of articulatory turbulence (Zorc, 2005; Rentillo \& Pototanon, 2022) 
+The Akeanon language, native to the Aklan province in the Philippines, possesses a distinctive phoneme that sets it apart from other Philippine-type languages. Initially recognized as a voiced velar fricative and subsequently categorized as a velar approximant, this phoneme differentiates Akeanon from its linguistic siblings within the Bisayan group, such as Hiligaynon, Cebuano, and Kinaray-a. The initial examinations of this phoneme can be traced back to Scheerer (1920), who analyzed its correlation with Bisayan cognates. Subsequent research by \shortciteA{deLaCruz:1968} characterized it as a voiced velar fricative, functioning both as a consonant and a semivowel. More recent studies have reiterated its classification as a velar approximant, emphasizing its absence of articulatory turbulence \shortcite{Zorc:1995, Rentillo:2022}. Table~\ref{tab:vowel_inventory} shows the Akeanon vowel inventory defined by \shortciteA{Zorc:1995} while Table~\ref{tab:consonant_inventory} shows the updated consonant inventory for the Akeanon language argued by \shortciteA{Rentillo:2022}. It is worth noting that consonantal sounds enclosed in parentheses indicate that these sounds are not fully integrated in the Akeanon phonetic system but they appear in limited context such as names and argot.
+
+\begin{table}[H]
+   \centering
+   \caption{Vowel Inventory for Akeanon}
+   \label{tab:vowel_inventory}
+   \renewcommand{\arraystretch}{1.5} % AdjuSst row height
+   \begin{tabular}{|l|c|c|c|}
+       \hline
+        & \textbf{Front} & \textbf{Central} & \textbf{Back} \\ 
+       \hline
+       \textbf{Close} & \textipa{i \textasciitilde I} &  & \textipa{u \textasciitilde o} \\ 
+       \hline
+       \textbf{Open-Mid} & (\textepsilon) &  & (\textopeno) \\ 
+       \hline
+       \textbf{Open} & \multicolumn{2}{c|}{\textipa{a \textasciitilde \textturna}} & \\ 
+       \hline
+   \end{tabular}
+\end{table}
+
+
+\begin{table}[H]
+   \centering
+   \caption{Updated Consonant Inventory for Akeanon} \vspace{0.25em}
+   \label{tab:consonant_inventory}
+   \renewcommand{\arraystretch}{1.2} % Adjust row height for better spacing
+   \setlength{\tabcolsep}{5pt} % Reduce horizontal padding
+
+   \resizebox{\textwidth}{!}{ % Resize to fit within text width
+   \begin{tabular}{|l|c|c|c|c|c|c|c|}
+      \hline
+      & \textbf{Bilabial} & \textbf{Alveolar} & \textbf{Post-Alveolar} & \textbf{Palatal} & \textbf{Velar} & \textbf{Labiovelar} & \textbf{Glottal} \\ 
+      \hline
+      \textbf{Stop} & p, b & t, d &  &  & k, g &  & \textipa{P} \\ 
+      \hline
+      \textbf{Nasal} & m & n &  &  & \textipa{N} &  &  \\ 
+      \hline
+      \textbf{Affricate} &  & (\textipa{ts}), (\textipa{dz}) & (\textipa{tS}), (\textipa{dZ}) &  &  &  &  \\ 
+      \hline
+      \textbf{Fricative} & (\textipa{f}), (\textipa{v}) & \textipa{s}, (\textipa{z}) & (\textipa{S}) &  &  &  & \textipa{h} \\ 
+      \hline
+      \textbf{Approximant} &  &  &  & \textipa{j} &  & \textturnmrleg & \textipa{w} \\ 
+      \hline
+      \textbf{Tap} &  &  \textfishhookr &  &  &  &  &  \\ 
+      \hline
+      \textbf{Lateral} &  & \textipa{l} &  &  &  &  &  \\ 
+      \hline
+   \end{tabular}
+   } % End resizebox
+
+\end{table}
+
 
 \textbf{Linguistic Status and Usage of Akeanon }
  
@@ -175,7 +226,7 @@ Among the roughly 7,000 languages spoken worldwide, merely 20-30 languages posse
 
 \textbf{Contributions to Multilingual Research and Technological Advancements}
 
-This initiative distinguishes itself by merging linguistic preservation with technological innovation. By assembling a large-scale public domain multilingual parallel corpus, the project enables progress in speech recognition, automated translation, and cross-linguistic studies. The absence of such resources has historically limited research and development to a small number of languages with existing corpora. The project’s focus on widely translated texts, such as the Swadesh List, the Universal Declaration of Human Rights, and chapters 1-3 of Genesis, ensures extensive applicability for linguistic research and tech applications.
+This initiative distinguishes itself by merging linguistic preservation with technological innovation. By assembling a large-scale public domain multilingual parallel corpus, the project enables progress in speech recognition, automated translation, and cross-linguistic studies. The absence of such resources has historically limited research and development to a small number of languages with existing corpus. The project’s focus on widely translated texts, such as the Swadesh List, the Universal Declaration of Human Rights, and chapters 1-3 of Genesis, ensures extensive applicability for linguistic research and tech applications.
 
 \textbf{Volunteer-Driven, Scalable Approach}
 
