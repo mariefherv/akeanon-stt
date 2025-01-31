@@ -27,24 +27,24 @@ The researchers will gather different Akeanon-based resources and text available
 
 The researchers will collect equivalent Akeanon words based off on the Swadesh 207 word-list, the Aklanon to English Dictionary by \citeA{Reyes:1969}, A Thesaurus in Aklanon by \citeA{Pastrana:2012}, and Diksyunaryong Akeanon-English-Filipino by \citeA{Belayro:2015} as references. All Akeanon words that can be found in all the collected and encoded resources will also be taken into account, including the collated pre-existing online resources. In addition, the different Akeanon dialects, namely Bukidnon, Buruangganon, Malaynon, and Nabasnon, will also be taken into consideration where the researchers will tap native speakers for each dialect and build on the Swadesh list as a starting point. The goal is to have at least 20000 Akeanon words in the collection, including inflections, derivations, and dialect variations.
 
-\textbf{Phonetic Transcription}
+\textbf{Consonant and Vowel Inventories and Transcription}
 
-After compiling the Akeanon word lists, the researchers will seek the assistance of Ms. Hazel Cipriano, a linguist who is also a native speaker of the language, to help create a simplified phonemic tables for the Akeanon language using the work of \shortciteA{Zorc:1995, Rentillo:2022} as reference for Akeanon phonology. Table~\ref{tab:simplified_consonant} and Table~\ref{tab:simplified_vowel} show the simplified phonemic tables. These simplified versions of the consonant and vowel phonemic tables will be used as reference when encoding the phonetic transcription of the words. Note that in this simplified version of the Akeanon consonant inventory, the glottal stop (\textipa{P}) is ignored for the transcription and some vowel phonemes were merged under one symbol for the simplification of phonetic transcription of spoken Akeanon. The encoded phonetic transcription will later be used for building and training a model in Kaldi.
+After compiling the Akeanon word lists, the researchers will seek the assistance of Ms. Hazel Cipriano, a linguist who is also a native speaker of the language, to help create simplified  consonant and vowel inventories for the Akeanon language using the work of \shortciteA{Zorc:1995, Rentillo:2022} as reference for Akeanon phonology. Table~\ref{tab:simplified_consonant} and Table~\ref{tab:simplified_vowel} show the simplified consonant and vowel inventories. Instead of phonetic symbols, graphemes will be used for the transcription. These simplified versions of the consonant and vowel inventories will be used as reference when encoding the transcription of the words. Note that in this simplified version of the Akeanon consonant inventory, the glottal stop (\textipa{P}) is ignored for the transcription and some vowel phonemes were merged under one grapheme for the simplification of transcription of spoken Akeanon. The encoded  transcription will later be used for building and training a model in Kaldi.
 
 \begin{table}[H]
    \centering
-   \caption{Simplified Consonant Phonemes with Examples and Transcription} \vspace{0.25em}
+   \caption{Simplified Consonant Inventory with Examples and Transcription} \vspace{0.25em}
    \label{tab:simplified_consonant}
    \renewcommand{\arraystretch}{1.2} % Adjust row height
    \setlength{\tabcolsep}{5pt} % Adjust column spacing
    \begin{tabular}{|c|c|c|c|}
        \hline
-       \textbf{Consonant} & \textbf{Symbol} & \textbf{Example Word} & \textbf{Phonetic Transcription} \\ 
+       \textbf{Consonant} & \textbf{Grapheme} & \textbf{Example Word} & \textbf{Transcription} \\ 
        \hline
-       b & b & baeay & b a ea y \\ \hline 
-       d & d & daean & d a ea n\\ \hline 
+       b & b & baeay & b a ea a y \\ \hline 
+       d & d & daean & d a ea a n\\ \hline 
        g & g & gasto & g a s t o \\ \hline 
-       h & h & hambae & h a m b ae \\ \hline 
+       h & h & hambae & h a m b a ea \\ \hline 
        k & k & kama & k a m a \\ \hline 
        j & y & yabi & y a b i \\ \hline 
        l & l & libat & l i p a t \\ \hline 
@@ -53,10 +53,10 @@ After compiling the Akeanon word lists, the researchers will seek the assistance
        \textipa{N} & ng & ngipon & ng i p o n \\ \hline
        p & p & paea & p a ea a \\ \hline 
        \textfishhookr & r & relo & r e l o \\ \hline
-       s & s & saea & s a ea \\ \hline 
+       s & s & saea & s a ea a \\ \hline 
        t & t & tanan & t a n a n \\ \hline 
-       \textturnmrleg & ea & eawas & ea w a s \\ \hline
-       w & w & waea & w a ea \\ \hline 
+       \textturnmrleg & ea & eawas & ea a w a s \\ \hline
+       w & w & waea & w a ea a \\ \hline 
        (\textipa{dz}) & dz & dzai (slang) & dz a i \\ \hline 
        (\textipa{dZ}) & dy & madya & m a dy a \\ \hline
        (f) & f & Filipino & f i l i p i n o \\ \hline 
@@ -71,15 +71,15 @@ After compiling the Akeanon word lists, the researchers will seek the assistance
 
 \begin{table}[H]
    \centering
-   \caption{Simplified Vowel Phonemes with Examples and Transcription} \vspace{0.25em}
+   \caption{Simplified Vowel Inventory with Examples and Transcription} \vspace{0.25em}
    \label{tab:simplified_vowel}
    \renewcommand{\arraystretch}{1.2} % Adjust row height
    \setlength{\tabcolsep}{5pt} % Adjust column spacing
    \begin{tabular}{|c|c|c|c|}
        \hline
-       \textbf{Vowel} & \textbf{Symbol} & \textbf{Example Word} & \textbf{Phonetic Transcription} \\ 
+       \textbf{Vowel} & \textbf{Grapheme} & \textbf{Example Word} & \textbf{Transcription} \\ 
        \hline
-       a & a & aeang-aeang & a ea ng a ea ng \\ \hline
+       a & a & aeang-aeang & a ea a ng a ea a ng \\ \hline
        e / (\textepsilon) & \textipa{e} & pwede & p w e d e \\ \hline
        i & i & ibog & \textipa{i b o g} \\ \hline
        o / (\textopeno) & \textipa{o} & oras & o r a s \\ \hline
@@ -98,7 +98,7 @@ After encoding and organizing the datasets across different sources accordingly,
    {
    "word": "Hambaeon", // Akeanon word
    "attributes": {
-      "phonetic_trans": "h a m b ae o n", // Phonetic transcription
+      "transcription": "h a m b a ea o n", // Phonetic transcription
       "type": "root", // Types: root/inflection/derivation
       "variation": "Standard" // Specify dialect/variation
       "pos": "noun", // Part-of-speech tag
