@@ -96,9 +96,10 @@ After encoding and organizing the datasets across different sources accordingly,
 
 \begin{lstlisting}[language=json, caption=Object structure for storing a word, breaklines=true]
    {
-   "word": "Akeanon word",
+   "word": "Hambaeon", // Akeanon word
    "attributes": {
-      "type": "root", // Types: "root"/"inflection"/"derivation",
+      "phonetic_trans": "h a m b ae o n", // Phonetic transcription
+      "type": "root", // Types: root/inflection/derivation
       "variation": "Standard" // Specify dialect/variation
       "pos": "noun", // Part-of-speech tag
       "stem": null,  // For "root" type, this is null.
@@ -168,7 +169,7 @@ For minor participants, additional ethical measures will be implemented. A separ
 For preprocessing audio files, Adobe Audition 2021 will be used for recording and audio processing, which will include normalization and noise reduction of the recorded audio. The cleaned up audio files will then be exported in a WAV format.
 
 \subsection{Speech and Text Corpus Development}
-The previous steps will set as a precedent for the speech and text corpus development. The development of the text corpus for the Akeanon language involves creating a comprehensive word collection from collected audio transcriptions from pre-existing online resources, dictionaries, thesaurus, glossaries, and Akeanon literature and text. Each word object will contain attributes such as type, variation (dialect), part-of-speech tag, stem or root word and its affixations (if the word is an inflection or derivation), list of derivations or inflections (if the word is a root word), source, and additional notes. These attributes will serve as annotations for the processing of the dataset in the future.
+The previous steps will set as a precedent for the speech and text corpus development. The development of the text corpus for the Akeanon language involves creating a comprehensive word collection from collected audio transcriptions from pre-existing online resources, dictionaries, thesaurus, glossaries, and Akeanon literature and text. Each word object will contain attributes such as phonetic transcription, type, variation (dialect), part-of-speech tag, stem or root word and its affixations (if the word is an inflection or derivation), list of derivations or inflections (if the word is a root word), source, and additional notes. These attributes will serve as annotations for the processing of the dataset in the future.
 
 For the speech corpus, the collated audio transcriptions and word list will be mapped with their corresponding voice recordings and will be annotated accordingly.
 
@@ -195,16 +196,6 @@ one week worth of activity.
 \newcommand{\weektwo}{\textbullet \textbullet}
 \newcommand{\weekthree}{\textbullet \textbullet \textbullet}
 \newcommand{\weekfour}{\textbullet \textbullet \textbullet \textbullet}
-
-%
-%  alternative to bullet is a star 
-%
-\begin{comment}
-   \newcommand{\weekone}{$\star$}
-   \newcommand{\weektwo}{$\star \star$}
-   \newcommand{\weekthree}{$\star \star \star$}
-   \newcommand{\weekfour}{$\star \star \star \star$ }
-\end{comment}
 
 
 \begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
