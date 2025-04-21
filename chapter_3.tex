@@ -1,6 +1,6 @@
 %   Filename    : chapter_4.tex 
 \chapter{Research Methodology}
-This chapter discusses the methodology used to develop the text and speech corpus for the Akeanon language, as well as building, training, and testing a model to generate initial results. The chapter will be divided into two main parts: Research activities and the calendar of activities for this special problem.
+This chapter discusses the methodology used to develop the text and speech corpus for the Akeanon language, as well as building, training, and testing a model to generate initial results. The chapter is divided into five major parts: Data Collection, Speech and Text Corpus Development, Preprocessing, Validation, Building and Training A Model.
 
 \section{RESEARCH ACTIVITIES}
 Figure~\ref{fig:flowchart} shows the general overview of the methodology for the development of an ASR system for the Akeanon language.
@@ -12,24 +12,26 @@ Figure~\ref{fig:flowchart} shows the general overview of the methodology for the
 	\label{fig:flowchart}
 \end{figure}
 
+
 \subsection{Data Collection}
 
 \textbf{Collating Pre-existing Online Resources}
 
-For the data collection, the researchers will make use of existing online resources from the website, Bible.com (see Appendix A for permission to use their resources). These resources include recordings and transcriptions of the Akeanon translations of the multiple books and chapters of the Bible.
+For the data collection, the researchers utilized existing online resources from the website, Bible.com. These resources include recordings and transcriptions of the Akeanon translations of the multiple books and chapters of the Bible.
+
+For the text transcriptions, the researchers created a web scraper, specifically for Bible.com, to automate the process of collecting and compiling the Akeanon transcription for each book chapter. Meanwhile, the audio resources were manually recorded using Adobe Audition.
 
 \textbf{Gathering, Encoding, and Digitization of Non-Digital Resources}
 
-The researchers will gather different Akeanon-based resources and text available at Kalibo Municipal library, to which include a dictionaries and thesaurus in Akeanon, songs, fables and tales, poems, and different collections of Akeanon text. The gathered resources will then be manually encoded and converted into digital format. For dictionaries and thesaurus, it will be encoded and organized in a way that can be conveniently parsed for annotations. The Akeanon texts and literary pieces will be encoded and stored in plain text for future analysis.
-
+The researchers gathered different Akeanon-based resources and text available at Kalibo Municipal library, to which include a dictionaries and thesaurus in Akeanon, songs, fables and tales, poems, and different collections of Akeanon text. The gathered resources were manually encoded and converted into digital format, storing it in a .txt file. For dictionaries and thesaurus, the materials were encoded and organized in a way that can be conveniently parsed for annotations. The Akeanon texts and literary pieces were encoded and stored in plain text for further analysis.
 
 \textbf{Compiling Akeanon Words}
 
-The researchers will collect equivalent Akeanon words based off on the Swadesh 207 word-list, the Aklanon to English Dictionary by \citeA{Reyes:1969}, A Thesaurus in Aklanon by \citeA{Pastrana:2012}, and Diksyunaryong Akeanon-English-Filipino by \citeA{Belayro:2015} as references. All Akeanon words that can be found in all the collected and encoded resources will also be taken into account, including the collated pre-existing online resources. In addition, the different Akeanon dialects, namely Bukidnon, Buruangganon, Malaynon, and Nabasnon, will also be taken into consideration where the researchers will tap native speakers for each dialect and build on the Swadesh list as a starting point. The goal is to have at least 20000 Akeanon words in the collection, including inflections, derivations, and dialect variations.
+The researchers collected the standard Akeanon equivalent of the Swadesh 207 word-list, having the Aklanon to English Dictionary by \citeA{Reyes:1969}, A Thesaurus in Aklanon by \citeA{Pastrana:2012}, and Diksyunaryong Akeanon-English-Filipino by \citeA{Belayro:2015}, and multiple unpublished resources from \shortciteA{SIL:Malaynon, SIL:Bukidnon1, SIL:Bukidnon2} as references. All Akeanon words that can be found in all the collected and encoded resources were also considered, including the collated pre-existing online resources. In addition, words from different Akeanon dialects, namely Bukidnon, Buruangganon, Malaynon, and Nabasnon, were also compiled by the researchers through tapping native speakers for each dialect and built on the Swadesh list as a starting point. 
 
 \textbf{Consonant and Vowel Inventories and Transcription}
 
-After compiling the Akeanon word lists, the researchers will seek the assistance of Ms. Hazel Cipriano, a linguist who is also a native speaker of the language, to help create simplified  consonant and vowel inventories for the Akeanon language using the work of \shortciteA{Zorc:1995, Rentillo:2022} as reference for Akeanon phonology. Table~\ref{tab:simplified_consonant} and Table~\ref{tab:simplified_vowel} show the simplified consonant and vowel inventories. Instead of phonetic symbols, graphemes will be used for the transcription. These simplified versions of the consonant and vowel inventories will be used as reference when encoding the transcription of the words. Note that in this simplified version of the Akeanon consonant inventory, the glottal stop (\textipa{P}) is ignored for the transcription and some vowel phonemes were merged under one grapheme for the simplification of transcription of spoken Akeanon. The encoded  transcription will later be used for building and training a model in Kaldi.
+After compiling the Akeanon word lists, the researchers had sought the assistance of Ms. Hazel Cipriano, a linguist who is also a native speaker of the language, to help create simplified  consonant and vowel inventories for the Akeanon language using the work of \shortciteA{Zorc:1995, Rentillo:2022} as reference for Akeanon phonology. Table~\ref{tab:simplified_consonant} and Table~\ref{tab:simplified_vowel} show the simplified consonant and vowel inventories. Instead of phonetic symbols, graphemes were used for the transcription. These simplified versions of the consonant and vowel inventories were used as reference when encoding the transcription of the words. Note that in this simplified version of the Akeanon consonant inventory, the glottal stop (\textipa{P}) is ignored for the transcription and some vowel phonemes were merged under one grapheme for the simplification of transcription of spoken Akeanon. The encoded transcription were used for building and training a model in Kaldi.
 
 \begin{table}[H]
    \centering
@@ -39,14 +41,13 @@ After compiling the Akeanon word lists, the researchers will seek the assistance
    \setlength{\tabcolsep}{5pt} % Adjust column spacing
    \begin{tabular}{|c|c|c|c|}
        \hline
-       \textbf{Consonant} & \textbf{Grapheme} & \textbf{Example Word} & \textbf{Transcription} \\ 
+       \textbf{Consonant Symbol} & \textbf{Grapheme} & \textbf{Example Word} & \textbf{Transcription} \\ 
        \hline
        b & b & baeay & b a ea a y \\ \hline 
        d & d & daean & d a ea a n\\ \hline 
        g & g & gasto & g a s t o \\ \hline 
        h & h & hambae & h a m b a ea \\ \hline 
        k & k & kama & k a m a \\ \hline 
-       j & y & yabi & y a b i \\ \hline 
        l & l & lipat & l i p a t \\ \hline 
        m & m & mayad & m a y a d \\ \hline 
        n & n & nipa & n i p a \\ \hline 
@@ -56,6 +57,7 @@ After compiling the Akeanon word lists, the researchers will seek the assistance
        s & s & saea & s a ea a \\ \hline 
        t & t & tanan & t a n a n \\ \hline 
        \textturnmrleg & ea & eawas & ea a w a s \\ \hline
+       j & y & yabi & y a b i \\ \hline 
        w & w & waea & w a ea a \\ \hline 
        (\textipa{dz}) & dz & dzai (slang) & dz a i \\ \hline 
        (\textipa{dZ}) & dy & madya & m a dy a \\ \hline
@@ -88,43 +90,53 @@ After compiling the Akeanon word lists, the researchers will seek the assistance
    \end{tabular}
 \end{table}
 
+\textbf{Ethical Considerations}
 
+During the gathering of the different Akeanon-based resources and text, the researchers had sought consent from the respective authors and owners to use their works, in respect to intellectual property rights. See Appendix A for the screenshots of various authors and authors granting the researchers permission to use their works.
 
-\textbf{Extraction and Storing}
+\subsection{Text and Speech Corpus Development}
 
-After encoding and organizing the datasets across different sources accordingly, the data will be extracted and stored in a central database for the entire word collection. To ensure uniformity among various data sources, a word is stored in the following object format:
+\textbf{Storing}
 
-\begin{lstlisting}[language=json, caption=Object structure for storing a word, breaklines=true]
+After encoding and organizing the datasets across different sources accordingly, the data was extracted and stored in a central database for the entire word collection. To ensure uniformity among various data sources, a word was stored in the following format:
+\\
+\\
+\\
+
+\begin{lstlisting}[language=json, caption=Object structure for storing a word where each attribute represents a column, breaklines=true]
    {
    "word": "Hambaeon", // Akeanon word
    "attributes": {
       "transcription": "h a m b a ea o n", // Transcription
+      "stem": null,  // For "root" type, this is null.
       "type": "root", // Types: root/inflection/derivation
       "variation": "Standard" // Specify dialect/variation
+      "origin": "Sp" // If word etymology is known, word origin specified
       "pos": "noun", // Part-of-speech tag
-      "stem": null,  // For "root" type, this is null.
-      "affixes": { // If it is an inflection or derivation
-         "prefixes": ["prefix1", "prefix2"],
-         "suffixes": ["suffix1", "suffix2"],
-         "infixes": ["infix1"]
-      },
-      "inflections": ["inflection1", "inflection2"],  
-      "derivations": ["derived_word1", "derived_word2"],
+      // If it is an inflection or derivation
+      "prefixes": ["prefix1", "prefix2"],
+      "suffixes": ["suffix1", "suffix2"],
+      "infixes": ["infix1"],
       "source": "Source of the word,
       "notes": "Additional notes"
    }}
-
 \end{lstlisting}
 
-For the database, the researchers will use Prisma Postgres for storage to efficiently manage complex relationships between the word objects and provide room for scalability as the corpus expands.
+The compiled word list was stored in a .csv master file containing the following sheets: (a) Compiled Word List [MASTER]; (b) Transcription Guide; (c) Affixes; (d) Swadesh 207 Word List; and (e) SIL Word List. This ensures a more organized, accessible, and manageable database.
 
-\textbf{Word Selection for Speech Corpus}
+\textbf{Extraction}
 
-For building the speech corpus, the researchers will prioritize words from the Swadesh 207 list for the voice recordings. Additionally, to complete the selection of 1000 words that will be prepared for speakers to read, the researchers will manually generate a word list that covers all the phonemes and common combinations based on the simplified phoneme tables. The word list will then be validated by the linguistic expert, along with the assistance of Dr. John E. Barrios, a native speaker of Akeanon and has numerous works featuring the said language. The validation must ensure the sets of word lists are phonetically balanced and that they have wide and even phoneme coverage.
+For the extraction of words from the encoded text files, a Python script was created to parse each word from a specified text file. For most text files, the script finds all words and converts every word into lowercase to remove duplicates. Proper nouns were dealt with during the annotation and proofreading of the text corpus. However, there is a separate parser for the text files from Bible.com since they contain quite a number of proper nouns.
+
+\textbf{Word and Text Selection for Speech Corpus}
+
+For building the speech corpus, the researchers have prioritized words from the Swadesh 207 list for the voice recordings. The researchers also created a Python script that generated an additional 1000-word list to ensure phonemic coverage and lexical diversity beyond the Swadesh items. This script automatically filters out Swadesh entries from the master word list and selects 1,000 unique words that are phonemically diverse and suitable for recording. It ensures that all phonemes in the language were represented at least once and splits the final list into five balanced sets of 200 words each. Each set is exported into plain text files, both with and without their transcriptions, for ease of use during data collection and annotation. In the finalization of the sets, an excerpt from "Mga Suguilanon ni Tita Linda" and "Tales and Legends of Aklan (in Akeanon)" by \shortciteA{Belayro:Suguilanon, Belayro:Tales}, and an additional 30 sentences from "Mga Bueawanon Nga Hueobaton Sa Akeanon" by \shortciteA{Cichon:Bueawanon} were included to each set, to which all were unique.
 
 \textbf{Voice Recording}
 
-A total of 50 native speakers of the Akeanon language, including its dialects, will be gathered for the recording of the generated word list. The 1000 words list will be divided into five sets, with each containing 200 words that are unique to that set. Each set will have 10 speakers for the recording. The researchers have also sought a collaboration with Aklan State University (ASU) - College of Teacher Education for the selection of speakers, with Dr. John Orbista as the primary contact. The speakers will be of varying gender, age, and spoken dialect to ensure diversity. For native speakers of different dialects, a modified set of word list will be given to them, in respect of their spoken dialect. Table~\ref{tab:native_speakers} shows the categories of native speakers. 
+A total of 50 native speakers of standard Akeanon were gathered for the recording of the generated 1000-word list. The 1000-word list was divided into five sets, with each containing 200 words that were unique to that set. The speakers were gathered by batches and were made to randomly choose a set for them to read. For each set, there were 10 designated speakers for the recording. The researchers also collaborated with Aklan State University (ASU) - College of Teacher Education for the selection of speakers, with Dr. John Orbista as the primary contact. The speakers were of varying gender, and age to ensure diversity.
+
+For the voice recordings of different dialects namely Bukidnon, Buruangganon, Malaynon, and Nabasnon, the researchers had tapped locals from the respective towns that speak the dialect. A total of 10 speakers for each dialect had their voices recorded. A modified set of the Swadesh 207-word list were provided for them, in respect of their spoken dialect. Table~\ref{tab:native_speakers} shows the categories of native speakers. 
 
 \begin{table}[H]
    \centering
@@ -143,7 +155,8 @@ A total of 50 native speakers of the Akeanon language, including its dialects, w
    12-15 \\ 
    & 16-30 \\ 
    & 31-45 \\ 
-   & 46-65 \\ \hline
+   & 46-60 \\
+   & 60+ \\ \hline
    Spoken Dialect & 
    Standard Akeanon \\ 
    & Bukidnon \\ 
@@ -153,74 +166,33 @@ A total of 50 native speakers of the Akeanon language, including its dialects, w
 \end{tabular}
 \end{table}
 
-For the audio recording, the microphone that will be used will be Shure SM58 (dynamic, cardiod pick-up pattern) with a Focusrite Scarlett 2i2 audio interface, having Adobe Audition 2021 as the recording software. In case of unavailability, recording over a smartphone with noise-cancelling headphones would suffice. The audio file will be named in the following convention: 
+For the audio recordings, the microphone used was Shure SM58 (dynamic, cardiod pick-up pattern) with a Focusrite Scarlett 2i2 audio interface, having Adobe Audition 2021 as the recording software. For redundancy, an Elgato Wave:3 was also set up in case the main recording equipment failed. The audio files were named in the following convention: 
 
-\texttt{\textless gender\textgreater\_\textless age\_group\textgreater\_\textless spoken\_dialect\textgreater\_\textless speaker\_number\textgreater}.
+\texttt{\textless speaker\_number\textgreater\_\textless set\textgreater\_\textless gender\textgreater\_\textless age\textgreater\_\textless spoken\_dialect\textgreater}.
 
 \textbf{Ethical Considerations}
 
-During the gathering of the different Akeanon-based resources and text, the researchers have sought consent from the respective authors to use their works, in respect to intellectual property rights. A notable example was when the researchers have reached out to Dr. David Zorc, one of the authors of the Aklanon-to-English Dictionary. Not only who he granted the researchers permission to use the dictionary, but he has also generously provided a soft copy of an existing database containing all the contents of the dictionary to the researchers. This database was shared courtesy of Dr. Jarrette Allen, a linguist who has also worked on the Akeanon language.
+At the beginning of their session for the voice recordings, participants were provided with a consent form, confidentiality agreement, and an information sheet containing information relevant to the study. This consent form served as a formal acknowledgment of the participant's voluntary involvement and understanding of the study's objectives, procedures, and potential risks. The form explained the purpose of the research, how the data will be used, and the steps taken to ensure confidentiality and anonymity. Participants were informed that they can withdraw from the study at any time without penalty. Additionally, the confidentiality agreement detailed the nature of the voice recordings and the storage of their data. Participants were made aware that their voices may be used for research analysis but will not be associated with their personal identities.
 
-At the beginning of their session for the voice recordings, participants will be provided with a consent form containing information relevant to the study. This consent form will serve as a formal acknowledgment of the participant's voluntary involvement and understanding of the study's objectives, procedures, and potential risks. The form will clearly explain the purpose of the research, how the data will be used, and the steps taken to ensure confidentiality and anonymity. Participants will be informed that they can withdraw from the study at any time without penalty. Additionally, the consent form will detail the nature of the voice recordings and the storage of their data. Participants will also be made aware that their voices may be used for research analysis but will not be associated with their personal identities.
-
-For minor participants, additional ethical measures will be implemented. A separate Parental/Guardian Consent Form will be provided, which outlines the same key information regarding the study, along with specific assurances about the protection of the minor’s privacy and confidentiality. This form will seek explicit permission from the parent or guardian before the minor is allowed to participate. Parents or guardians will also be given the opportunity to ask questions and will be assured that their child’s participation is entirely voluntary. Furthermore, minors will be asked to provide assent—a simplified acknowledgment that they understand the study and agree to participate. Both the parent/guardian consent and the minor's assent will be required before participation can proceed. Throughout the study, the rights and welfare of minor participants will be prioritized, and measures will be taken to ensure their comfort and safety.
+For minor participants, additional ethical measures were implemented. A separate Parental/Guardian Consent Form were provided, which outlined the same key information regarding the study, along with specific assurances about the protection of the minor’s privacy and confidentiality. This form sought explicit permission from the parent or guardian before the minor is allowed to participate. Parents or guardians were also given the opportunity to ask questions and were assured that their child’s participation was entirely voluntary. Furthermore, minors were asked to provide assent—a simplified acknowledgment that they understand the study and agree to participate. Both the parent/guardian consent and the minor's assent were required before participation can proceed. Throughout the study, the rights and welfare of minor participants were prioritized, and measures were taken to ensure their comfort and safety.
 
 \subsection{Preprocessing}
-For preprocessing audio files, Adobe Audition 2021 will be used for recording and audio processing, which will include normalization and noise reduction of the recorded audio. The cleaned up audio files will then be exported in a WAV format.
 
-\subsection{Speech and Text Corpus Development}
-The previous steps will set as a precedent for the speech and text corpus development. The development of the text corpus for the Akeanon language involves creating a comprehensive word collection from collected audio transcriptions from pre-existing online resources, dictionaries, thesaurus, glossaries, and Akeanon literature and text. Each word object will contain attributes such as phonetic transcription, type, variation (dialect), part-of-speech tag, stem or root word and its affixations (if the word is an inflection or derivation), list of derivations or inflections (if the word is a root word), source, and additional notes. These attributes will serve as annotations for the processing of the dataset in the future.
+\textbf{Annotation of the Text Corpus}
 
-For the speech corpus, the collated audio transcriptions and word list will be mapped with their corresponding voice recordings and will be annotated accordingly.
+Each stored word contains the following attributes: phonetic transcription, type (root or derivation/inflection), variation (dialect), part-of-speech tag, stem or root word, and its affixations (if the word is an inflection or derivation), and source. These attributes serve as annotations for the processing of the dataset in the future. To automate the process of identifying the attributes and organizing them in one dataset, the researchers created a Python script that: (a) generates the grapheme transcription of the word; (b) identifies if the word is a root word or an inflection/derivation; and (c) identifies the stem or root word and different affixes (if the word is an inflection/derivation) basing off a dataset containing headwords and a separate dataset for affixes, to which all are from the "A Study of the Aklanon Dialect, Volume Two: Dictionary (of Root Words and Derivations), Aklanon to English" by \shortciteA{Reyes:1969}.
+
+Though more efficient, the researchers acknowledge that the automated process was prone to errors in generating the dataset, thus manual proofreading was still required, using "A Study of the Aklanon Dialect. Volume One: Grammar" by \shortciteA{deLaCruz:1968} as guide for spelling rules for Akeanon.
+
+\textbf{Audio Cleanup and Preprocessing}
+
+For preprocessing the audio files, Adobe Audition 2021 was used for audio preprocessing. A 2-second interval was set for each word utterance of the recorded wordlist. For the voice recordings of the long-form text such as the excerpt and the 30 sentences, the audio was retained except for the errors and long silences in between. Noise reduction was applied to the recorded audio and were then normalized to -0.1 dB. The cleaned up audio files were exported in a WAV format.
+
+The collated audio transcriptions and word list were mapped with their corresponding voice recordings and were annotated accordingly in preparation for training a model.
 
 \subsection{Validation}
 
-To validate the text corpus, the researchers will coordinate with native speakers and language experts such as Dr. Barrios, to ensure the accuracy of the spelling and grammar. The researchers will also coordinate with Ms. Cipriano again to aid the researchers in validating the accuracy and consistency of the tokenization and annotations of the developed text corpus.
-
-For the speech corpus validation, the researchers will again rely on native speakers, along with Dr. Barrios, to ensure the accuracy of the transcriptions. The transcription accuracy will be further verified by comparing the transcriptions to the spoken content and ensuring consistency across the entire corpus.
+To validate the text and speech corpus, the researchers coordinated with native speakers and language experts to ensure the accuracy of the spelling, grammar, and transcriptions. The transcription accuracy was further verified by comparing the transcriptions to the spoken content and ensuring consistency across the entire corpus.
 
 \subsection{Building and Training A Model}
-To generate initial results for an ASR system, the researchers will build, train, and test a model using the Kaldi toolkit. Similar to the methods employed by \shortciteA{Panizales:2023}, a ten-fold cross-validation scheme will be used for training and testing the data, with eight folds used for training and two folds used for validation. Finally, the researchers have decided to use a DNN (Deep Neural Network) model for training.
-
-\section{Calendar of Activities}
-
-% A Gantt chart showing the schedule of the activities should be included as a table. For example:
-
-Table \ref{tab:timetableactivities} shows a Gantt chart of the activities.  Each bullet represents approximately
-one week worth of activity.
-
-%
-%  the following commands will be used for filling up the bullets in the Gantt chart
-%
-\newcommand{\weekone}{\textbullet}
-\newcommand{\weektwo}{\textbullet \textbullet}
-\newcommand{\weekthree}{\textbullet \textbullet \textbullet}
-\newcommand{\weekfour}{\textbullet \textbullet \textbullet \textbullet}
-
-
-\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
-\centering
-\caption{Timetable of Activities} \vspace{0.25em}
-\makebox[\textwidth]{
-\resizebox{1.2\textwidth}{!}{
-\begin{tabular}{|p{2in}|c|c|c|c|c|c|c|c|c|} \hline
-\centering Activities (A.Y. 2024-2025) 														& Sep & Oct  & Nov & Dec & Jan & Feb & Mar & Apr & May \\ \hline
-Brainstorming and Selection of Topic      													& \weekone & \weektwo &  &  &  &  &  &  & \\ \hline
-Drafting and Finalization of Chapter 1 - Introduction 										&  & \weektwo & \weekone &  &  &  &  &  & \\ \hline
-Drafting and Finalization of Chapter 2 - Review of Related Literature      					&   &  & \weekthree &  &  &  &  &  &  \\ \hline
-Preparation of Letters; UPVREB and Establish Communication for Collaboration     			&   & \weekone &  &  &  &  &  &  &  \\ \hline
-Drafting and Finalization of Chapter 3 - Methodologies      								&   &  & \weekone & \weektwo &  &  &  &  &   \\ \hline
-Proposal Document Creation in LaTex 														&   &  & \weekone & \weekone &  &  &  &  &  \\ \hline
-Proposal Presentation 																		&   &  &  & \weekone &  &  &  &  & \\ \hline
-Data Gathering 																				&   &  &  & \weekthree & \weekthree  &  &  &  & \\ \hline
-Preprocessing 																				&   &  &  &  &  \weekone  & \weekthree &  &  &  \\ \hline
-Drafting and Finalization of Chapter 4 - Results and Discussion 							&   &  &  &  &  & \weekone & \weektwo &  &  \\ \hline
-Corpus Development and Validation															&   &  &  &  &  &  & \weekthree & \weekthree &  \\ \hline
-Drafting and Finalization of Chapter 5 - Summary and Recommendation							&   &  &  &  &  &  &  & \weektwo & \weektwo \\ \hline
-Drafting and Finalization of SP Defense														&   &  &  &  &  &  &  &  & \weekone \\ \hline
-SP Defense																					&   &  &  &  &  &  &  &  & \weekone \\ \hline
-\end{tabular}
-}}
-\label{tab:timetableactivities}
-\end{table}
-
+To generate initial results for an ASR system, the researchers have built, trained, and tested a model using the Kaldi toolkit. Similar to the methods employed by \shortciteA{Panizales:2023}, a ten-fold cross-validation scheme were used for training and testing the data, with eight folds used for training and two folds used for validation. A DNN (Deep Neural Network) model was used for training.
