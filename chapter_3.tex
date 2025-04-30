@@ -111,8 +111,8 @@ After encoding and organizing the datasets across different sources accordingly,
       "stem": null,  // For "root" type, this is null.
       "type": "root", // Types: root/inflection/derivation
       "variation": "Standard" // Specify dialect/variation
-      "origin": "Sp" // If word etymology is known, word origin specified
-      "pos": "noun", // Part-of-speech tag
+      "origin": null // If word etymology is known, word origin specified (e.g. "Sp", "En")
+      "pos": "verb", // Part-of-speech tag
       // If it is an inflection or derivation
       "prefixes": ["prefix1", "prefix2"],
       "suffixes": ["suffix1", "suffix2"],
@@ -168,7 +168,7 @@ For the voice recordings of different dialects namely Bukidnon, Buruangganon, Ma
 
 For the audio recordings, the microphone used was Shure SM58 (dynamic, cardiod pick-up pattern) with a Focusrite Scarlett 2i2 audio interface, having Adobe Audition 2021 as the recording software. For redundancy, an Elgato Wave:3 was also set up in case the main recording equipment failed. The audio files were named in the following convention: 
 
-\texttt{\textless speaker\_number\textgreater\_\textless set\textgreater\_\textless gender\textgreater\_\textless age\textgreater\_\textless spoken\_dialect\textgreater}.
+\texttt{\textless speaker\_number\textgreater\_\textless set\textgreater\_\textless gender\textgreater\_\textless age\textgreater\_\textless spoken\_dialect\textgreater}.wav
 
 \textbf{Ethical Considerations}
 
@@ -186,13 +186,125 @@ Though more efficient, the researchers acknowledge that the automated process wa
 
 \textbf{Audio Cleanup and Preprocessing}
 
-For preprocessing the audio files, Adobe Audition 2021 was used for audio preprocessing. A 2-second interval was set for each word utterance of the recorded wordlist. For the voice recordings of the long-form text such as the excerpt and the 30 sentences, the audio was retained except for the errors and long silences in between. Noise reduction was applied to the recorded audio and were then normalized to -0.1 dB. The cleaned up audio files were exported in a WAV format.
+For preprocessing the audio files, Audacity was used for audio preprocessing. Noise reduction, bandwidth filters (high-pass: 200Hz, low pass: 18000 Hz), and a compressor were applied to the recorded audio and were then normalized to -0.1 dB. Each recording was then split into 10-second audio tracks, with each containing 10 word utterances for the word list. The recordings of the long-form text such as the excerpt and the 30 sentences was also split into 10-second audio tracks but contained word utterances between 10-25, depending on the speaker's reading pace. The tracks were renamed into the following convention:
 
-The collated audio transcriptions and word list were mapped with their corresponding voice recordings and were annotated accordingly in preparation for training a model.
+\texttt{\textless dialect\textgreater\textless speaker\_id\textgreater\textless set\textgreater\textless text\_type\textgreater\_\textless sequence\_number\textgreater}.wav
+
+Refer to Table~\ref{tab:namecoding} for the name coding of the 10-second audio tracks of the voice recordings.
+
+\begin{table}[H]
+   \centering
+   \caption{Name Coding of the Split Audio Tracks} \vspace{0.25em}
+   \label{tab:namecoding}
+   
+   \renewcommand{\arraystretch}{1.5} % Increase row height
+   \setlength{\tabcolsep}{10pt} % Increase horizontal padding
+   
+   \begin{tabular}{|c|p{2in}|c|}
+   \hline
+   \textbf{Category} & \textbf{Subcategories} & \textbf{Coding} \\
+   \hline
+   Spoken Dialect & Standard Akeanon & AK \\ 
+   & Bukidnon & LI \\ 
+   & Buruangganon & RU \\ 
+   & Malaynon & ML \\ 
+   & Nabasnon & NS \\
+   \hline
+   Set & Swadesh & 00 \\ 
+   & A & 01 \\ 
+   & B & 02 \\ 
+   & C & 03 \\ 
+   & D & 04 \\  
+   \hline
+   Text Type & Word list & 00 \\ 
+   & Short story & 01 \\ 
+   & Sentences \& Idioms & 02 \\ 
+   \hline
+   \end{tabular}
+\end{table}
+   
+Finally, the cleaned up audio tracks were exported in a WAV format stored in a folder named after the original name of the recording file.
 
 \subsection{Validation}
 
 To validate the text and speech corpus, the researchers coordinated with native speakers and language experts to ensure the accuracy of the spelling, grammar, and transcriptions. The transcription accuracy was further verified by comparing the transcriptions to the spoken content and ensuring consistency across the entire corpus.
 
-\subsection{Building and Training A Model}
-To generate initial results for an ASR system, the researchers have built, trained, and tested a model using the Kaldi toolkit. Similar to the methods employed by \shortciteA{Panizales:2023}, a ten-fold cross-validation scheme were used for training and testing the data, with eight folds used for training and two folds used for validation. A DNN (Deep Neural Network) model was used for training.
+\subsection{Building and Training a Model}
+
+To generate initial results for the automatic speech recognition (ASR) system, a model was built, trained, and tested using the Kaldi toolkit. A ten-fold cross-validation scheme was applied, where eight folds were used for training and two folds for validation. Training was performed using a monophone-triphone modeling approach, following the guide written by \shortciteA{Chodroff:2018}.
+
+Before training, several essential files were prepared:
+
+\subsubsection{Dataset Preparation Files}
+
+The following files were created as required by the Kaldi data preparation process:
+
+\begin{itemize}
+    \item \textbf{wav.scp}: Maps each audio file identifier to its corresponding file path.
+    \item \textbf{text}: Associates each utterance identifier with its transcription.
+    \item \textbf{utt2spk}: Defines the mapping between each utterance and its corresponding speaker.
+    \item \textbf{spk2gender}: Specifies the gender of each speaker.
+    \item \textbf{corpus.txt}: Contains the complete set of uttered words across all recordings.
+\end{itemize}
+
+\vspace{1em}
+
+The expected file formats are shown below:
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{10pt}
+\caption{File Format Specifications for Dataset Preparation}
+\label{tab:fileformats}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{File} & \textbf{Format} \\
+\hline
+\texttt{wav.scp} & \texttt{<file\_id> <path\_to\_file>} \\
+\texttt{text} & \texttt{<utterance\_id> word1 word2 word3 ...} \\
+\texttt{utt2spk} & \texttt{<utterance\_id> <speaker\_id>} \\
+\texttt{spk2gender} & \texttt{<speaker\_id> <gender>} \\
+\texttt{corpus.txt} & \texttt{words spoken in one recording} \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{Language Data Files}
+
+Language modeling required the preparation of the following files:
+
+\begin{itemize}
+    \item \textbf{lexicon.txt}: Lists all words used in the project dictionary along with their corresponding phonemic transcriptions. Silence phones are also included.
+    \item \textbf{nonsilence\_phones.txt}: Contains all non-silence phones used in the project.
+    \item \textbf{silence\_phones.txt} and \textbf{optional\_silence.txt}: Specify the set of silence phones.
+\end{itemize}
+
+\vspace{1em}
+
+The expected formats for the language data files are shown below:
+
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\setlength{\tabcolsep}{10pt}
+\caption{File Format Specifications for Language Modeling}
+\label{tab:languageformats}
+\begin{tabular}{|l|l|}
+\hline
+\textbf{File} & \textbf{Format} \\
+\hline
+\texttt{lexicon.txt} & \texttt{<word> <phone1> <phone2> ...} \\
+\texttt{nonsilence\_phones.txt} & \texttt{<phone>} (one per line) \\
+\texttt{silence\_phones.txt} & \texttt{<silence\_phone>} (one per line) \\
+\texttt{optional\_silence.txt} & \texttt{<silence\_phone>} (single line) \\
+\hline
+\end{tabular}
+\end{table}
+
+\vspace{1em}
+
+-- to be discussed further --
+
+
+
